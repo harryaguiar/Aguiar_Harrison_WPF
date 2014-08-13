@@ -1,16 +1,22 @@
 //Harrison Aguiar, 8/13/14, Expression Workshhet
 
-var age = 38; // Number Variable
+//Example
+//Calculate the Circumference of a Circle
+var radius = 6;
+const PI = 3.14159265;
 
-var isStudent = false; //Boolean Variable
+//multiply 2, PI and the radius & assign to circ variable.
+var circ = radius * 2 * PI;
+//print out the output circumference
+console.log("The circumference of the circle is " + circ );
 
-var firstName = "Harrison";
+//Dog Years
+//Calculate how old Sparky the pit bull is in dog years based on his actual age
+var human = 5
 
-//Array
-var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3
+//multiply 7 to human variable
+var dog = human * 7
 
-muppetNames[1] = "Rizzo"
-
-var num = 1
-console.log(muppetNames[num]);
+//print out the output dog years
+console.log("Sparky is " + human + " human years old which is " + dog + " in dog years.");
 
