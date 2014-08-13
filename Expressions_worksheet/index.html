@@ -1,0 +1,90 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head> 
+		<title>This is my first HTML page.</title>
+		<script src="js/script.js"> </script>
+
+	</head>
+	<body>
+		<!-- write a note -->
+		<body>
+
+    <div id="container">
+                <ul id="social">
+            <li class="facebook"><a href="javascript:void(0);" title="Compartilhar no Facebook">Facebook</a></li>            <li class="twitter"><a href="javascript:void(0);" title="Compartilhar no Twitter">Twitter</a></li>        </ul>
+                
+        <div id="player">
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="230" height="24">
+                <param name="movie" value="http://streaming15.hstbr.net/static/jwplayer/player_simple.swf">
+                <param name="allowfullscreen" value="true">
+                <param name="allowscriptaccess" value="always">
+                <param name="wmode" value="transparent">
+                <param name="flashvars" value="file=http://streaming15.hstbr.net:8228/live?type=.flv&amp;provider=video&amp;autostart=1&amp;skin=http://streaming15.hstbr.net/static/jwplayer/skin.zip">
+                <embed type="application/x-shockwave-flash" src="http://streaming15.hstbr.net/static/jwplayer/player_simple.swf" width="230" height="24" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" flashvars="file=http://streaming15.hstbr.net:8228/live?type=.flv&amp;provider=video&amp;autostart=1&amp;skin=http://streaming15.hstbr.net/static/jwplayer/skin.zip">
+            </object>
+        </div>
+        
+        <div id="info"><span class="icon icon-on"></span><span class="text">Thales Roberto - Eu escolho Deus</span></div>
+        
+        <ul id="medias">
+            <li class="winamp"><a href="http://streaming15.hstbr.net/player/modelo_gospel/winamp.pls" title="Winamp">Winamp</a></li>
+            <li class="itunes"><a href="http://streaming15.hstbr.net/player/modelo_gospel/itunes.pls" title="iTunes">iTunes</a></li>
+            <li class="mobile"><a href="http://streaming15.hstbr.net:8228/live.m3u" title="Mobile">Mobile</a></li>
+        </ul>
+    </div>
+
+    <script type="text/javascript">
+        var config = {
+            info: 'http://streaming15.hstbr.net/player/modelo_gospel/info.json',
+            social: 'http://streaming15.hstbr.net/player/modelo_gospel/social'
+        };
+    </script>
+
+    <script type="text/javascript">
+    $(function(){
+
+    // Pega informaÃ§Ã£o sobre a mÃºsica atual
+    getinfo = function(){
+        $.ajax({
+            type    : 'GET',
+            url     : config.info,
+            dataType: 'json',
+            async   : true,
+            cache   : false,
+            success : function(result){
+                if (result.status === 'online')
+                    $('#container #info').html('<span class="icon icon-on"></span><span class="text">'+ result.playing +'</span>');
+                else
+                    $('#container #info').html('<span class="icon icon-off"></span><span class="text">A rÃ¡dio nÃ£o estÃ¡ disponÃ­vel no momento</span>');
+            },
+            error   : function(){
+                $('#container #info').html('<span class="icon icon-off"></span><span class="text">A rÃ¡dio nÃ£o estÃ¡ disponÃ­vel no momento</span>');
+            }
+        });
+    };
+    var timer = setInterval('getinfo()', 10000);
+    getinfo();
+    
+    // VariÃ¡veis para compartilhar
+    var size = {width: 600, height: 300};
+    var pos  = {top: (screen.height - size.height) / 2, left: (screen.width - size.width) / 2};
+    
+    // Compartilhar no Facebook
+    $('#container #social .facebook a').click(function(){
+        window.open('https://www.facebook.com/sharer/sharer.php?u='+ encodeURIComponent(config.social), 'facebook-share', 'width='+ size.width +',height='+ size.height +',top='+ pos.top +',left='+ pos.left +',scrollbars=false');
+        return false;
+    });
+    
+    // Compartilhar no Twitter
+    $('#container #social .twitter a').click(function(){
+        window.open('https://twitter.com/share?text='+ encodeURIComponent('Clique para ouvir') +'&url='+ encodeURIComponent(config.social), 'twitter-share', 'width='+ size.width +',height='+ size.height +',top='+ pos.top +',left='+ pos.left +',scrollbars=false');
+    });
+    
+});
+
+  </script>
+
+</body>
+	</body>
+</html>
