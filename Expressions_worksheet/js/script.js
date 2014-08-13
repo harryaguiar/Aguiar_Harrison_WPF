@@ -71,18 +71,18 @@ console.log("You have spent a total of $" + spent + " on groceries over 5 weeks.
 
 //Discounts
 //Calculate the discounted price with and without sales tax
-var originalPrice =   //original price variable
-var discount =  //discount variable
-var item =  //description item variable
-var tax =  //sales tax percentage variable
+var originalPrice = 499.99  //original price variable
+var discount = 15 //discount percentage variable
+var item = "3d Printer" //description item variable
+var tax = 8.875 //sales tax percentage variable
 
 //
-var totalTax =   //price of item with tax variable
+var totalNoTax = -originalPrice * (discount / 100) + originalPrice  //price of item with tax variable
 
 //
-var totalNoTax =  //price of item without tax variable
+var totalTax =  totalNoTax * (tax/100) + totalNoTax //price of item without tax variable
 
 //print out the output for the item choosen with the original price, discont given, total with tax, and total without tax 
-console.log("Your " + item + " was originally $" + originalPrice + ", but after a " + discount + "% discount, it is now $" + totalNoTax + " without tax, and $" + totalTax + "with tax.")
+console.log("Your " + item + " was originally $" + originalPrice + ", but after a " + discount + "% discount, it is now $" + totalNoTax + " without tax, and $" + totalTax + " with tax.")
 
 
