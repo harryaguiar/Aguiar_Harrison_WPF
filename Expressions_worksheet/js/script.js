@@ -26,8 +26,15 @@ console.log("Sparky is " + human + " human years old which is " + dog + " in dog
 
 //Slice of Pie part 1
 //Calculate how much pizza each partygoer will get at the party
-var pizzza =    //pizzas ordered variable
-var people =    //partygoer variable
-var slice =     //pizza slices variable
+var pizza = 20  //pizzas ordered variable
+var people = 50   //partygoer variable
+var slice = 8    //pizza slices variable
+
+var ate = (20*8)/50  //slices every person ate variable
+
+//print out the output slices for each person
+console.log("Each person ate " + ate + " slices of pizza at the party.")
+
+//---------------//
 
 
