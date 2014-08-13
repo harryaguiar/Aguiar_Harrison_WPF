@@ -76,10 +76,10 @@ var discount = 15 //discount percentage variable
 var item = "3d Printer" //description item variable
 var tax = 8.875 //sales tax percentage variable
 
-//
+//As it is a discount, subtract from the total. To find out the discount in percentage, divide it by 100 then multiply by the original price in negative to make it a subtraction. After finding out the discount the discount amount, subtract from the original price to have the total price after the discount
 var totalNoTax = -originalPrice * (discount / 100) + originalPrice  //price of item with tax variable
 
-//
+//Take the total result from the discounted price and add up the tax by findind the percentage value which is, take the tax value, divide by 100, then multiply by the discounted result price. Then with the percentage value just add it up to the total discounted price.
 var totalTax =  totalNoTax * (tax/100) + totalNoTax //price of item without tax variable
 
 //print out the output for the item choosen with the original price, discont given, total with tax, and total without tax 
