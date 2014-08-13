@@ -30,10 +30,27 @@ var pizza = 20  //pizzas ordered variable
 var people = 50   //partygoer variable
 var slice = 8    //pizza slices variable
 
+//multiply the number of pizzas by number of slices of each pizza, then divide by the number of people
 var ate = (20*8)/50  //slices every person ate variable
 
 //print out the output slices for each person
 console.log("Each person ate " + ate + " slices of pizza at the party.")
+
+//---------------//
+
+//---------------//
+
+//Slice of Pie part 2
+//Calculate how much pizza each partygoer will get at the party
+var pizza = 20  //pizzas ordered variable
+var people = 50   //partygoer variable
+var slice = 8    //pizza slices variable
+
+//multiply the number of pizzas by number of slices of each pizza, then calculate the remainder(%) slices from the number of person
+var remainder = (20*8) % 50  //slices remainder for Sparky variable 
+
+//print out the output slices Sparky got
+console.log("Sparky got " + remainder + " slices of pizza.")
 
 //---------------//
 
