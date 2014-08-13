@@ -54,4 +54,16 @@ console.log("Sparky got " + remainder + " slices of pizza.")
 
 //---------------//
 
+//Average shopping bill
+//Calculate the average amount spent on groceries over the past five weeks
+var grocery = [120, 215, 118, 121, 212]  //amount spent on grocery variable
+
+//Add up the amount spent on each week
+var spent = grocery[0] + grocery[1] + grocery[2] + grocery[3] + grocery[4]  //total amount spent on groceries variable
+
+//Divide the total amount spent by the number of weeks (5)
+var average = spent/5 //average spent on groceries for the past 5 weeks variable
+
+//print out the output for the total and the average spent on groceries for the past 5 weeks
+console.log("You have spent a total of $" + spent + " on groceries over 5 weeks. That is an average of $" + average + " per week")
 
