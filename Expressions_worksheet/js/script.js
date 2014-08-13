@@ -67,3 +67,22 @@ var average = spent/5 //average spent on groceries for the past 5 weeks variable
 //print out the output for the total and the average spent on groceries for the past 5 weeks
 console.log("You have spent a total of $" + spent + " on groceries over 5 weeks. That is an average of $" + average + " per week")
 
+//---------------//
+
+//Discounts
+//Calculate the discounted price with and without sales tax
+var originalPrice =   //original price variable
+var discount =  //discount variable
+var item =  //description item variable
+var tax =  //sales tax percentage variable
+
+//
+var totalTax =   //price of item with tax variable
+
+//
+var totalNoTax =  //price of item without tax variable
+
+//print out the output for the item choosen with the original price, discont given, total with tax, and total without tax 
+console.log("Your " + item + " was originally $" + originalPrice + ", but after a " + discount + "% discount, it is now $" + totalNoTax + " without tax, and $" + totalTax + "with tax.")
+
+
