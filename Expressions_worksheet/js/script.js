@@ -1,4 +1,9 @@
-//Harrison Aguiar, 8/13/14, Expression Workshhet
+/*
+Harrison Aguiar
+WPF 1408 Section 01
+Expression Workshhet
+8-13-14
+*/
 
 //Example
 //Calculate the Circumference of a Circle
