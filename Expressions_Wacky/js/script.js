@@ -9,6 +9,8 @@ Expression Wacky
 Wacky: This third calculator should be something off the wall. Impress us with your creativity and originality.
 */
 
+alert("Testing 1,2,3")
+
 //Problem Name
 //Calculate 
 //var
