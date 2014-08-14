@@ -5,6 +5,9 @@ Expression Wacky
 8-14-14
 */
 
+/*
+Wacky: This third calculator should be something off the wall. Impress us with your creativity and originality.
+*/
 
 //Problem Name
 //Calculate 
