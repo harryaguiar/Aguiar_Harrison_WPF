@@ -36,7 +36,7 @@ console.log(timeIn);
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
 
-var timeOut = prompt("What time did you get out?");
+var timeOut = prompt("What time are you getting out?");
 
 //Console.log out the response
 console.log(timeOut);
