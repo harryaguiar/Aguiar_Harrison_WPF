@@ -10,7 +10,9 @@ Industry-specific: This second set should be something related to either your cu
 A good example of this would be something that calculates how many pixels square an image resolution is based on image dpi, width and height.
 */
 
-
+var deliveryPay = 2.15;
+var milesPay = 1.07;
+var dayTime = 12;
 
 
 alert("Hello! Let's find out how much money you made today. Click 'Ok' to start!")
@@ -44,7 +46,7 @@ console.log(timeOut);
 
 //Create a variable for the current year
 
-var dayTime = 12;
+
 
 
 var totalTime = (12-timeIn) - (12-timeOut);
@@ -61,7 +63,7 @@ alert(name+ ", you worked " +totalTime+ " hours today.");
 var deliveries = prompt("How many deliveries did you make today?");
 console.log(deliveries);
 
-var deliveryPay = 2.15;
+
 
 var deliveryTotal = deliveries * 2.15;
 
@@ -72,7 +74,7 @@ var milesDriven = prompt("How many miles did you drive today?");
 console.log(milesDriven);
 
 
-var milesPay = 1.07;
+
 
 var milesTotal = milesDriven * 1.07;
 
@@ -83,7 +85,10 @@ alert("You drove " +milesDriven+ " miles today and made $" + milesTotal +" on mi
 
 var totalPay = milesTotal + deliveryTotal;
 
-var milesDriven = prompt("Before I give you your total amount, could you grade your work day (from 0 to 5) for us? \n Note: 0 - Really Bad to 5 - Really good")
+var experienceRate = prompt("Before I give you the total amount you made today, could you grade your work day (from 0 to 4) for us?\nNote: 0 - Really Bad to 4 - Really good")
+
+var experienceRate = ["Really Bad", "Bad", "Okay", "Good", "Really Good"]; //0,1,2,3,4
+console.log(experienceRate[]);
 
 //The result
 console.log("Thank you for your hard work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");
