@@ -15,7 +15,7 @@ How much paint you would need for a room in your home.
 var daysOfWeek = 7;
 
 /*example*/
-alert("Hi! Let's find out how much money you spent for the past week! \n Click 'Ok' to start!")
+alert("Hi! Let's find out how much money you spent on food for the past week! \n Click 'Ok' to start!")
 
 
 //Create a js file that will tell us how old we are
@@ -45,7 +45,7 @@ var breakfastSpent = prompt("How much did you spend in breakfast when you don't 
 //Console.log out the response
 console.log(breakfastSpent);
 
-var breakfastOut = parseInt(7 - breakfastHome);
+var breakfastOut = parseInt(daysOfWeek - breakfastHome);
 
 var breakfastTotalSpent = parseInt(breakfastOut * breakfastSpent);
 
@@ -70,7 +70,7 @@ var lunchSpent = prompt("How much did you spend in lunch when you don't have it 
 //Console.log out the response
 console.log(lunchSpent);
 
-var lunchOut = parseInt(7 - lunchHome);
+var lunchOut = parseInt(daysOfWeek - lunchHome);
 
 var lunchTotalSpent = parseInt(lunchOut * lunchSpent);
 
@@ -78,64 +78,52 @@ console.log("You spent $" +lunchTotalSpent+ " on lunch this past week.");
 alert("You spent $" +lunchTotalSpent+ " on lunch this past week.");
 
 
+//Ask the user what year ther were born in
+//Create a variable to catch their answer
+
+var dinnerHome = prompt("How many days did you have dinner at home?");
+
+//Console.log out the response
+console.log(dinnerHome);
+
 
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
 
-var timeOut = prompt("What time are you getting out?");
+var dinnerSpent = prompt("How much did you spend in dinner when you don't have it at home?");
 
 //Console.log out the response
-console.log(timeOut);
-//Current Year and subtract the year ther were born
+console.log(dinnerSpent);
 
-//Create a variable for the current year
+var dinnerOut = parseInt(daysOfWeek - dinnerHome);
 
-var dayTime = 12;
+var dinnerTotalSpent = parseInt(dinnerOut * dinnerSpent);
 
-//Calculate the age
-var totalTime = (12-timeIn) - (12-timeOut);
-
-//Alert user with their age
-alert(name+ ", you worked " +totalTime+ " hours today.");
-
-//Let's make this more complex
-//How old will the user be in the future...
+console.log("You spent $" +dinnerTotalSpent+ " on dinner this past week.");
+alert("You spent $" +dinnerTotalSpent+ " on dinner this past week.");
 
 
+//Ask the user what year ther were born in
+//Create a variable to catch their answer
 
-//Ask the user, how many years in the future they would like to know
-var deliveries = prompt("How many deliveries did you make today?");
-console.log(deliveries);
+var snack = prompt("How much did you spend on snacks daily?");
 
-var deliveryPay = 2.15;
-
-var deliveryTotal = deliveries * 2.15;
-
-//Make the result look pretty :)
-console.log("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" on deliveries.");
-alert("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" on deliveries.");
-
-var milesDriven = prompt("How many miles did you drive today?");
-console.log(milesDriven);
+//Console.log out the response
+console.log(snack);
 
 
-var milesPay = 1.07;
+var snackSpent = parseInt(daysOfWeek * snack);
+//Ask the user what year ther were born in
+//Create a variable to catch their answer
 
-var milesTotal = milesDriven * 1.07;
+
+var totalSpent = parseInt(breakfastSpent + lunchSpent+ dinnerSpent + snackSpent)
 
 
-//Make the result look pretty :)
-console.log("You drove " +milesDriven+ " miles today and made $" + milesTotal +" on mileage.");
-alert("You drove " +milesDriven+ " miles today and made $" + milesTotal +" on mileage");
 
-var totalPay = milesTotal + deliveryTotal;
+console.log("You spent $" +totalSpent+ " on food this past week.");
+alert("You spent $" +totalSpent+ " on food this past week.");
 
-console.log("Thank you for your hard work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");
-alert("Thank you for your hard work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");
 
-//Problem Name
-//Calculate 
-//var
 
-//print out the output for 
-//console.log()
+
