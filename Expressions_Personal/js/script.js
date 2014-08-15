@@ -117,8 +117,8 @@ var snackSpent = parseInt(daysOfWeek * snack);
 //Create a variable to catch their answer
 
 
-var totalSpent = [breakfastSpent, lunchSpent, dinnerSpent, snackSpent];
-var total = totalSpent[0] + totalSpent[1] + totalSpent[2] + totalSpent[3]
+var total = Number(breakfastTotalSpent) + Number(lunchTotalSpent) + Number(dinnerTotalSpent) + Number(snackSpent);
+
 
 
 //the result
