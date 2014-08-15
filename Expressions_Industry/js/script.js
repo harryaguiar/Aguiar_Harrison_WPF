@@ -55,7 +55,7 @@ alert(name+ ", you worked " +totalTime+ " hours today.");
 //Let's make this more complex
 //How old will the user be in the future...
 
-alert("Now, let's find out how much you made today. Click 'Ok' to continue!")
+
 
 //Ask the user, how many years in the future they would like to know
 var deliveries = prompt("How many deliveries did you make today?");
