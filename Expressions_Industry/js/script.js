@@ -47,7 +47,7 @@ console.log(timeOut);
 var dayTime = 12;
 
 //Calculate the age
-var totalTime = (12-timeIn) + (12-timeOut);
+var totalTime = (12-timeIn) - (12-timeOut);
 
 //Alert user with their age
 alert(name+ ", you worked " +totalTime+ " hours today.");
@@ -80,7 +80,7 @@ var milesTotal = milesDriven * 1.07;
 
 //Make the result look pretty :)
 console.log("You drove " +milesDriven+ " miles today and made $" + milesTotal +" in " +totalTime+ " hours working.");
-alert("You drove " +deliveries+ " miles today and made $" + deliveryTotal +" in " +totalTime+ " hours working.");
+alert("You drove " +milesDriven+ " miles today and made $" + milesTotal +" in " +totalTime+ " hours working.");
 
 var totalPay = milesTotal + deliveryTotal;
 
