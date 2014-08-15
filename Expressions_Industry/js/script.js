@@ -19,6 +19,7 @@ alert("Hello! Let's find out how much money you made today. Click 'Ok' to start!
 
 // Ask the user their name
 var name = prompt("Please type in your name:");
+console.log(name);
 
 //Say hello to the user and let them know what we are doing
 //ALERT the user
