@@ -66,8 +66,8 @@ var deliveryPay = 2.15;
 var deliveryTotal = deliveries * 2.15;
 
 //Make the result look pretty :)
-console.log("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" in " +totalTime+ " hours working.");
-alert("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" in " +totalTime+ " hours working.");
+console.log("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" on deliveries.");
+alert("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" on deliveries.");
 
 var milesDriven = prompt("How many miles did you drive today?");
 console.log(milesDriven);
@@ -79,13 +79,13 @@ var milesTotal = milesDriven * 1.07;
 
 
 //Make the result look pretty :)
-console.log("You drove " +milesDriven+ " miles today and made $" + milesTotal +" in " +totalTime+ " hours working.");
-alert("You drove " +milesDriven+ " miles today and made $" + milesTotal +" in " +totalTime+ " hours working.");
+console.log("You drove " +milesDriven+ " miles today and made $" + milesTotal +" on mileage.");
+alert("You drove " +milesDriven+ " miles today and made $" + milesTotal +" on mileage");
 
 var totalPay = milesTotal + deliveryTotal;
 
-console.log("Thank you for your work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");
-alert("Thank you for your work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");
+console.log("Thank you for your hard work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");
+alert("Thank you for your hard work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");
 
 
 //Problem Name
