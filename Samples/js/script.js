@@ -1,46 +1,15 @@
-//Ask the user what year ther were born in
-//Create a variable to catch their answer
+var experienceRate = prompt("Before I give you the total amount you made today, could you grade your work day (from 0 to 4) for us?\nNote: 0 - Really Bad to 4 - Really good")
 
-var daysOfWeek = 7;
-var dinnerHome = prompt("How many days did you have dinner at home?");
-
-//Console.log out the response
-console.log(dinnerHome);
+var experienceRate = ["Really Bad", "Bad", "Okay", "Good", "Really Good"]; //0,1,2,3,4
 
 
-//Ask the user what year ther were born in
-//Create a variable to catch their answer
 
-var dinnerSpent = prompt("How much did you spend in dinner when you didn't have it at home?");
+console.log(experienceRate);
 
-//Console.log out the response
-console.log(dinnerSpent);
+experienceRate [0] = "Really Bad"
+experienceRate [2] = "Bad"
+experienceRate [3] = "Okay"
+experienceRate [4] = "Good"
+experienceRate [5] = "Really Good" //0,1,2,3,4
 
-var dinnerOut = Number(daysOfWeek - dinnerHome);
-
-var dinnerTotalSpent = Number(dinnerOut * dinnerSpent);
-
-console.log("You spent $" +dinnerTotalSpent+ " on dinner this past week.");
-alert("You spent $" +dinnerTotalSpent+ " on dinner this past week.");
-
-
-//Ask the user what year ther were born in
-//Create a variable to catch their answer
-
-var snack = prompt("How much did you spend on snacks daily?");
-
-//Console.log out the response
-console.log(snack);
-
-
-var snackSpent = Number(daysOfWeek * snack);
-//Ask the user what year ther were born in
-//Create a variable to catch their answer
-
-
-var totalSpent = Number(dinnerSpent + snackSpent);
-
-
-//the result
-console.log("You spent $" +totalSpent+ " on food this past week.");
-alert("You spent $" +totalSpent+ " on food this past week.");
+alert(experienceRate);
