@@ -117,10 +117,10 @@ var snackSpent = parseInt(daysOfWeek * snack);
 //Create a variable to catch their answer
 
 
-var totalSpent = breakfastSpent + lunchSpent + dinnerSpent + snackSpent;
+var totalSpent = String(breakfastSpent + lunchSpent + dinnerSpent + snackSpent);
 
 
-
+//the result
 console.log("You spent $" +totalSpent+ " on food this past week.");
 alert("You spent $" +totalSpent+ " on food this past week.");
 

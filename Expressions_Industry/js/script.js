@@ -12,10 +12,9 @@ A good example of this would be something that calculates how many pixels square
 
 
 
-/*example*/
+
 alert("Hello! Let's find out how much money you made today. Click 'Ok' to start!")
 
-//Create a js file that will tell us how old we are
 
 // Ask the user their name
 var name = prompt("Please type in your name:");
@@ -47,10 +46,10 @@ console.log(timeOut);
 
 var dayTime = 12;
 
-//Calculate the age
+
 var totalTime = (12-timeIn) - (12-timeOut);
 
-//Alert user with their age
+//Alert user total time worked
 alert(name+ ", you worked " +totalTime+ " hours today.");
 
 //Let's make this more complex
@@ -58,7 +57,7 @@ alert(name+ ", you worked " +totalTime+ " hours today.");
 
 
 
-//Ask the user, how many years in the future they would like to know
+//Ask the user, how many deliveries they made
 var deliveries = prompt("How many deliveries did you make today?");
 console.log(deliveries);
 
@@ -66,7 +65,6 @@ var deliveryPay = 2.15;
 
 var deliveryTotal = deliveries * 2.15;
 
-//Make the result look pretty :)
 console.log("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" on deliveries.");
 alert("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" on deliveries.");
 
@@ -85,13 +83,8 @@ alert("You drove " +milesDriven+ " miles today and made $" + milesTotal +" on mi
 
 var totalPay = milesTotal + deliveryTotal;
 
+//The result
+
 console.log("Thank you for your hard work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");
 alert("Thank you for your hard work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");
 
-
-//Problem Name
-//Calculate 
-//var
-
-//print out the output for 
-//console.log()
