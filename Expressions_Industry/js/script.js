@@ -67,7 +67,7 @@ var deliveryTotal = deliveries * 2.15;
 
 //Make the result look pretty :)
 console.log("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" in " +totalTime+ " hours working.");
-alert("You made " +deliveries+ " today and made $" + deliveryTotal +" in " +totalTime+ " hours working.");
+alert("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" in " +totalTime+ " hours working.");
 
 var milesDriven = prompt("How many miles did you drive today?");
 console.log(milesDriven);
