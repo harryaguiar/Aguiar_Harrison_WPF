@@ -50,7 +50,7 @@ var dayTime = 12;
 var totalTime = (12-timeIn) + (12-timeOut);
 
 //Alert user with their age
-alert(name+ " you worked " +totalTime+ " hours today.");
+alert(name+ ", you worked " +totalTime+ " hours today.");
 
 //Let's make this more complex
 //How old will the user be in the future...
