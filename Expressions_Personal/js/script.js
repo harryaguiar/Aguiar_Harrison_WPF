@@ -45,6 +45,39 @@ var breakfastSpent = prompt("How much did you spend in breakfast when you don't 
 //Console.log out the response
 console.log(breakfastSpent);
 
+var breakfastOut = parseInt(7 - breakfastHome);
+
+var breakfastTotalSpent = parseInt(breakfastOut * breakfastSpent);
+
+console.log("You spent $" +breakfastTotalSpent+ " on breakfast this past week.");
+alert("You spent $" +breakfastTotalSpent+ " on breakfast this past week.");
+
+
+//Ask the user what year ther were born in
+//Create a variable to catch their answer
+
+var lunchHome = prompt("How many days did you have lunch at home?");
+
+//Console.log out the response
+console.log(lunchHome);
+
+
+//Ask the user what year ther were born in
+//Create a variable to catch their answer
+
+var lunchSpent = prompt("How much did you spend in lunch when you don't have it at home?");
+
+//Console.log out the response
+console.log(lunchSpent);
+
+var lunchOut = parseInt(7 - lunchHome);
+
+var lunchTotalSpent = parseInt(lunchOut * lunchSpent);
+
+console.log("You spent $" +lunchTotalSpent+ " on lunch this past week.");
+alert("You spent $" +lunchTotalSpent+ " on lunch this past week.");
+
+
 
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
