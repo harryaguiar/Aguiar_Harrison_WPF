@@ -111,8 +111,11 @@ var snack = prompt("How much did you spend on snacks daily?");
 //Console.log out the response
 console.log(snack);
 
-
 var snackSpent = parseInt(daysOfWeek * snack);
+
+console.log("You spent $" +snackSpent+ " on snacks this past week.");
+alert("You spent $" +snackSpent+ " on snacks this past week.");
+
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
 
