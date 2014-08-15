@@ -80,7 +80,7 @@ var milesTotal = milesDriven * 1.07;
 
 //Make the result look pretty :)
 console.log("You drove " +milesDriven+ " miles today and made $" + milesTotal +" in " +totalTime+ " hours working.");
-alert("You made " +deliveries+ " miles today and made $" + deliveryTotal +" in " +totalTime+ " hours working.");
+alert("You drove " +deliveries+ " miles today and made $" + deliveryTotal +" in " +totalTime+ " hours working.");
 
 var totalPay = milesTotal + deliveryTotal;
 
