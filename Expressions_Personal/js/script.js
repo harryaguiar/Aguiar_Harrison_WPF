@@ -40,7 +40,7 @@ console.log(breakfastHome);
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
 
-var breakfastSpent = prompt("How much did you spend in breakfast when you don't have it at home?");
+var breakfastSpent = prompt("How much did you spend in breakfast when you didn't have it at home?");
 
 //Console.log out the response
 console.log(breakfastSpent);
@@ -65,7 +65,7 @@ console.log(lunchHome);
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
 
-var lunchSpent = prompt("How much did you spend in lunch when you don't have it at home?");
+var lunchSpent = prompt("How much did you spend in lunch when you didn't have it at home?");
 
 //Console.log out the response
 console.log(lunchSpent);
@@ -90,7 +90,7 @@ console.log(dinnerHome);
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
 
-var dinnerSpent = prompt("How much did you spend in dinner when you don't have it at home?");
+var dinnerSpent = prompt("How much did you spend in dinner when you didn't have it at home?");
 
 //Console.log out the response
 console.log(dinnerSpent);
