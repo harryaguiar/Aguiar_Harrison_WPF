@@ -13,7 +13,7 @@ A good example of this would be something that calculates how many pixels square
 
 
 /*example*/
-alert("Hello! Let's find out how many hours you worked today. Click 'Ok' to start!")
+alert("Hello! Let's find out how much money you made today. Click 'Ok' to start!")
 
 //Create a js file that will tell us how old we are
 
@@ -55,17 +55,37 @@ alert(name+ " you worked " +totalTime+ " hours today.");
 //Let's make this more complex
 //How old will the user be in the future...
 
+alert("Now, let's find out how much you made today. Click 'Ok' to continue!")
+
 //Ask the user, how many years in the future they would like to know
 var deliveries = prompt("How many deliveries did you make today?");
 console.log(deliveries);
 
-//Calculate our future age
-var futureAge = age + parseInt(yearsMore);
-console.log(futureAge);
+var deliveryPay = 2.15;
+
+var deliveryTotal = deliveries * 2.15;
 
 //Make the result look pretty :)
-console.log("You will be " +futureAge+ " in " + yearsMore +" years.");
-alert("You will be " +futureAge+ " in " + yearsMore +" years.");
+console.log("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" in " +totalTime+ " hours working.");
+alert("You made " +deliveries+ " today and made $" + deliveryTotal +" in " +totalTime+ " hours working.");
+
+var milesDriven = prompt("How many miles did you drive today?");
+console.log(milesDriven);
+
+
+var milesPay = 1.07;
+
+var milesTotal = milesDriven * 1.07;
+
+
+//Make the result look pretty :)
+console.log("You drove " +milesDriven+ " miles today and made $" + milesTotal +" in " +totalTime+ " hours working.");
+alert("You made " +deliveries+ " today and made $" + deliveryTotal +" in " +totalTime+ " hours working.");
+
+var totalPay = milesTotal + deliveryTotal;
+
+console.log("Thank you for your work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");
+alert("Thank you for your work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");
 
 
 //Problem Name
