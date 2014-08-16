@@ -27,20 +27,20 @@ alert(quote[x]);
 // Ask the user their name
 //Create a variable to catch their answer
 var name = prompt("Please type in your name:");
-console.log(name);
+console.log(name); //Console.log out the response
 
 //Find out how many credits still need to be taken
 //Create a variable to catch their answer
 var creditsTaken = prompt("How many credits have taken already?"); //credits already taken variable
-console.log(creditsTaken);
+console.log(creditsTaken); //Console.log out the response
 
 //Create a variable to catch their answer
 var creditsNeeded = prompt("How many credits do you need to furfill your requirements?"); //credits needed to graduate variable
-console.log(creditsNeeded)
+console.log(creditsNeeded); //Console.log out the response
 
 var creditsLeft = Number(creditsNeeded) - Number(creditsTaken); //credits left to be taken variable
 //the result
-console.log(name+ ", you still have " +creditsLeft+ " to take.");
+console.log(name+ ", you still have " +creditsLeft+ " to take."); //Console.log out the response
 alert(name+ ", you still have " +creditsLeft+ " to take.");
 
 
@@ -71,12 +71,12 @@ var yearBorn = prompt("In what year did you born?"); //find out what year they b
 
 
 var currentAge = Number(currentYear) - Number(yearBorn);
-console.log(currentAge);
+console.log(currentAge); //Console.log out the response
 
 
 var graduationAge = Number(yearsLeft) + Number(currentAge);
-console.log(graduationAge)
+console.log(graduationAge); //Console.log out the response
 
 //the result
-console.log(name+ ", you are " +currentAge+ " years old. You will be " + graduationAge + " years old at your Graduation.");
+console.log(name+ ", you are " +currentAge+ " years old. You will be " + graduationAge + " years old at your Graduation."); //Console.log out the response
 alert(name+ ", you are " +currentAge+ " years old. You will be " + graduationAge + " years old at your Graduation.");

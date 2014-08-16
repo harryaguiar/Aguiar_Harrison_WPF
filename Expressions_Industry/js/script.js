@@ -21,7 +21,7 @@ alert("Hello! Let's find out how much money you made today. Click 'Ok' to start!
 // Ask the user their name
 //Create a variable to catch their answer
 var name = prompt("Please type in your name:");
-console.log(name);
+console.log(name);//Console.log out the response
 
 //Say hello to the user and let them know what we are doing
 //ALERT the user
@@ -61,18 +61,18 @@ alert(name+ ", you worked " +totalTime+ " hours today.");
 //Ask the user, how many deliveries they made
 //Create a variable to catch their answer
 var deliveries = prompt("How many deliveries did you make today?");
-console.log(deliveries);
+console.log(deliveries);//Console.log out the response
 
 
 
 var deliveryTotal = deliveries * 2.15;
-
+//Console.log out the response
 console.log("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" on deliveries.");
 alert("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" on deliveries.");
 
 //Create a variable to catch their answer
 var milesDriven = prompt("How many miles did you drive today?");
-console.log(milesDriven);
+console.log(milesDriven);//Console.log out the response
 
 
 
@@ -81,7 +81,7 @@ var milesTotal = milesDriven * 1.07;
 
 
 //Make the result look pretty :)
-console.log("You drove " +milesDriven+ " miles today and made $" + milesTotal +" on mileage.");
+console.log("You drove " +milesDriven+ " miles today and made $" + milesTotal +" on mileage.");//Console.log out the response
 alert("You drove " +milesDriven+ " miles today and made $" + milesTotal +" on mileage");
 
 var totalPay = milesTotal + deliveryTotal;
@@ -89,6 +89,6 @@ var totalPay = milesTotal + deliveryTotal;
 
 
 //The result
-console.log("Thank you for your hard work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");
+console.log("Thank you for your hard work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");//Console.log out the response
 alert("Thank you for your hard work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");
 

@@ -23,7 +23,7 @@ alert("Hi! Let's find out how much money you spent on food for the past week! \n
 // Ask the user their name
 //Create a variable to catch their answer
 var name = prompt("Please type in your name:");
-console.log(name);
+console.log(name);//Console.log out the response
 
 //Say hello to the user and let them know what we are doing
 //ALERT the user
@@ -48,6 +48,7 @@ var breakfastOut = parseInt(daysOfWeek - breakfastHome);
 
 var breakfastTotalSpent = parseInt(breakfastOut * breakfastSpent);
 
+//Console.log out the response
 console.log("You spent $" +breakfastTotalSpent+ " on breakfast this past week.");
 alert("You spent $" +breakfastTotalSpent+ " on breakfast this past week.");
 
@@ -71,6 +72,7 @@ var lunchOut = parseInt(daysOfWeek - lunchHome);
 
 var lunchTotalSpent = parseInt(lunchOut * lunchSpent);
 
+//Console.log out the response
 console.log("You spent $" +lunchTotalSpent+ " on lunch this past week.");
 alert("You spent $" +lunchTotalSpent+ " on lunch this past week.");
 
@@ -94,6 +96,7 @@ var dinnerOut = parseInt(daysOfWeek - dinnerHome);
 
 var dinnerTotalSpent = parseInt(dinnerOut * dinnerSpent);
 
+//Console.log out the response
 console.log("You spent $" +dinnerTotalSpent+ " on dinner this past week.");
 alert("You spent $" +dinnerTotalSpent+ " on dinner this past week.");
 
@@ -107,6 +110,7 @@ console.log(snack);
 
 var snackSpent = parseInt(daysOfWeek * snack);
 
+//Console.log out the response
 console.log("You spent $" +snackSpent+ " on snacks this past week.");
 alert("You spent $" +snackSpent+ " on snacks this past week.");
 
@@ -129,7 +133,7 @@ var total = Number(breakfastTotalSpent) + Number(lunchTotalSpent) + Number(dinne
 
 
 //the result
-console.log("You spent $" +total+ " on food this past week.");
+console.log("You spent $" +total+ " on food this past week.");//Console.log out the response
 alert("You spent $" +total+ " on food this past week.");
 
 alert(+name+", thank you for participating on our survey!")
