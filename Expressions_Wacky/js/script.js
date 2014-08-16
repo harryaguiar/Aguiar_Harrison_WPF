@@ -8,8 +8,6 @@ Expression Wacky
 /*
 Wacky: This third calculator should be something off the wall. Impress us with your creativity and originality.
 */
-var credits Needed = 125; //credits needed to graduate variable
-var currentYear = 2014 // curren
 
 /*example*/
 alert("Hello! Let's find how old would you be at your Graduation. Click 'Ok' to start!")
@@ -22,9 +20,9 @@ console.log(name);
 
 var creditsTaken = prompt("How many credits have taken already?"); //credits already taken
 
- 
+var creditsNeeded = prompt("How many credits do you need to furfill your requirements?"); //credits needed to graduate
 
-var creditsLeft = (creditsNeeded - creditsLeft); //credits needed to take
+var creditsLeft = Number(creditsNeeded) - Number(creditsLeft); //credits needed to take
 
 console.log(name+ ", you still have " +creditsLeft+ " to take.");
 alert(name+ ", you still have " +creditsLeft+ " to take.");
@@ -52,14 +50,12 @@ console.log(timeOut);
 
 var yearBorn = prompt("In what year did you born?"); //find out what year they born
 
+var currentYear = 2014
 
+var currentAge = Number(currentYear - yearBorn);
 
-var currentAge = parseInt(currentYear - yearBorn);
-
-var graduationAge = parseInt(timeOut - currentAge);
+var graduationAge = Number(timeOut - currentAge);
 
 //the result
 console.log(name+ ", you are " +currentAge+ " years old. You will be " +graduationAge+ "years old at your Graduation.");
 alert(name+ ", you are " +currentAge+ " years old. You will be " +graduationAge+ "years old at your Graduation.");
-
-

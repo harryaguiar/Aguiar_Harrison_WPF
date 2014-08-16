@@ -119,6 +119,15 @@ alert("You spent $" +snackSpent+ " on snacks this past week.");
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
 
+alert("While our system is adding up your weekly spent, let's do a quick test.\nYou will give me a positive number and I will add it up to all the other consecutive numbers lower than it");
+var y=1
+var temp=prompt("Please input a positive integer:")
+for (x=2;x<=temp;x++){
+y=y+x
+}
+alert("1+2+...+"+temp+"="+y)
+
+
 
 var total = Number(breakfastTotalSpent) + Number(lunchTotalSpent) + Number(dinnerTotalSpent) + Number(snackSpent);
 

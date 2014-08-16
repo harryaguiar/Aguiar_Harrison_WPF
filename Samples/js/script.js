@@ -1,20 +1,15 @@
-var givenNames = new Array();
-    var pattern = /[\w\d]{1,}/ig;
-
-
-    for(var i=0;i<10;i++){
-var name = prompt("Enter some names. Only letters and digits are accepted!\nEntering an empty field stops asking","");
-    if(name && name.match(pattern)){givenNames.push(name);}
-    }
-
-    function displayNames(){
-        if(givenNames.length > 0){
-            document.getElementById("list").innerHTML = "<span style='color:Navy;font-    weight:bold;'>Given names are:<\/span><br><br>" + givenNames.join("<br><br>");
-        } else {
-            document.getElementById("list").innerHTML = "<span style='color:Navy;font-weight:bold;'>Nothing has been given!<\/span>";
-        }
-    }
-
+var triangle = new Object();
+triangle['sideA']   =   3;
+triangle['sideB']   =   4;
+triangle['sideC']   =   5;
+triangle['getArea'] =   function ( a, b, c ) {
+  // Return the area of a triangle using Heron's formula
+        
+  var semiperimeter   =   (a + b + c) / 2;
+  var calculation     =   semiperimeter * (semiperimeter - a) * (semiperimeter - b) * (semiperimeter - c);
+  return Math.sqrt( calculation );
+        
+}; 
 
 var experienceRate = prompt("Before I give you the total amount you made today, could you grade your work day (from 0 to 4) for us?\nNote: 0 - Really Bad to 4 - Really good")
 
