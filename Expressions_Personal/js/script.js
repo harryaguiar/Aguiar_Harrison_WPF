@@ -12,9 +12,9 @@ How much paint you would need for a room in your home.
 */
 
 
-var daysOfWeek = 7;
+var daysOfWeek = 7; //variable for the total days of a week
 
-/*example*/
+// Welcome alert
 alert("Hi! Let's find out how much money you spent on food for the past week! \n Click 'Ok' to start!")
 
 
@@ -24,9 +24,6 @@ alert("Hi! Let's find out how much money you spent on food for the past week! \n
 //Create a variable to catch their answer
 var name = prompt("Please type in your name:");
 console.log(name);//Console.log out the response
-
-//Say hello to the user and let them know what we are doing
-//ALERT the user
 
 
 //Ask the user what year ther were born in
@@ -44,13 +41,13 @@ var breakfastSpent = prompt("How much did you spend daily in breakfast when you 
 //Console.log out the response
 console.log(breakfastSpent);
 
-var breakfastOut = parseInt(daysOfWeek - breakfastHome);
+var breakfastOut = parseInt(daysOfWeek - breakfastHome);//variable to find out days having breakfast out of house
 
-var breakfastTotalSpent = parseInt(breakfastOut * breakfastSpent);
+var breakfastTotalSpent = parseInt(breakfastOut * breakfastSpent);//variable for total spent in breakfast
 
 //Console.log out the response
 console.log("You spent $" +breakfastTotalSpent+ " on breakfast this past week.");
-alert("You spent $" +breakfastTotalSpent+ " on breakfast this past week.");
+alert("You spent $" +breakfastTotalSpent+ " on breakfast this past week.");//Alert user response
 
 
 //Ask the user what year ther were born in
@@ -68,13 +65,13 @@ var lunchSpent = prompt("How much did you spend daily in lunch when you didn't h
 //Console.log out the response
 console.log(lunchSpent);
 
-var lunchOut = parseInt(daysOfWeek - lunchHome);
+var lunchOut = parseInt(daysOfWeek - lunchHome);//variable to find out days having lunch out
 
-var lunchTotalSpent = parseInt(lunchOut * lunchSpent);
+var lunchTotalSpent = parseInt(lunchOut * lunchSpent); //variable for total spent in lunch
 
 //Console.log out the response
 console.log("You spent $" +lunchTotalSpent+ " on lunch this past week.");
-alert("You spent $" +lunchTotalSpent+ " on lunch this past week.");
+alert("You spent $" +lunchTotalSpent+ " on lunch this past week.");//Alert user response
 
 
 //Ask the user what year ther were born in
@@ -92,13 +89,13 @@ var dinnerSpent = prompt("How much did you spend daily in dinner when you didn't
 //Console.log out the response
 console.log(dinnerSpent);
 
-var dinnerOut = parseInt(daysOfWeek - dinnerHome);
+var dinnerOut = parseInt(daysOfWeek - dinnerHome);//variable for days having dinner out
 
-var dinnerTotalSpent = parseInt(dinnerOut * dinnerSpent);
+var dinnerTotalSpent = parseInt(dinnerOut * dinnerSpent); //variable for total spent on dinner
 
 //Console.log out the response
 console.log("You spent $" +dinnerTotalSpent+ " on dinner this past week.");
-alert("You spent $" +dinnerTotalSpent+ " on dinner this past week.");
+alert("You spent $" +dinnerTotalSpent+ " on dinner this past week.");//Alert user response
 
 
 //Ask the user what year ther were born in
@@ -108,35 +105,34 @@ var snack = prompt("How much did you spend on snacks daily?");
 //Console.log out the response
 console.log(snack);
 
-var snackSpent = parseInt(daysOfWeek * snack);
+var snackSpent = parseInt(daysOfWeek * snack); // result variable for total spent in snacks
 
 //Console.log out the response
-console.log("You spent $" +snackSpent+ " on snacks this past week.");
-alert("You spent $" +snackSpent+ " on snacks this past week.");
+console.log("You spent $" +snackSpent+ " in snacks this past week.");
+alert("You spent $" +snackSpent+ " in snacks this past week."); //Alert user response
 
-//Ask the user what year ther were born in
+//Catch user attention for the result
 //Create a variable to catch their answer
-
 alert("While our system is adding up your weekly spent, let's do a quick test.\nYou will give me a positive number and I will add it up to all the other consecutive numbers lower than it");
 var y=1
 var temp=prompt("Please type in your positive number:") //Create a variable to catch their answer
 for (x=2;x<=temp;x++){
 y=y+x
 }
-alert("1+2+...+"+temp+"="+y)
+alert("1+2+...+"+temp+"="+y) //Alert user response
 
 
-alert("Now, let's find out how much you spent for this past week")
+alert("Now, let's find out how much you spent for this past week!") //Alert user next question
 
-var total = Number(breakfastTotalSpent) + Number(lunchTotalSpent) + Number(dinnerTotalSpent) + Number(snackSpent);
+var total = Number(breakfastTotalSpent) + Number(lunchTotalSpent) + Number(dinnerTotalSpent) + Number(snackSpent);// result variable
 
 
 
 //the result
 console.log("You spent $" +total+ " on food this past week.");//Console.log out the response
-alert("You spent $" +total+ " on food this past week.");
+alert("You spent $" +total+ " on food this past week.");//Alert user response
 
-alert(+name+", thank you for participating on our survey!")
+alert(+name+", thank you for participating on our survey!")//Alert user thankful message
 
 
 

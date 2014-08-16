@@ -53,10 +53,6 @@ var totalTime = (12-timeIn) - (12-timeOut);
 //Alert user total time worked
 alert(name+ ", you worked " +totalTime+ " hours today.");
 
-//Let's make this more complex
-//How old will the user be in the future...
-
-
 
 //Ask the user, how many deliveries they made
 //Create a variable to catch their answer
@@ -66,9 +62,10 @@ console.log(deliveries);//Console.log out the response
 
 
 var deliveryTotal = deliveries * 2.15;
+
 //Console.log out the response
 console.log("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" on deliveries.");
-alert("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" on deliveries.");
+alert("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" on deliveries."); //Alert user response
 
 //Create a variable to catch their answer
 var milesDriven = prompt("How many miles did you drive today?");
@@ -82,7 +79,7 @@ var milesTotal = milesDriven * 1.07;
 
 //Make the result look pretty :)
 console.log("You drove " +milesDriven+ " miles today and made $" + milesTotal +" on mileage.");//Console.log out the response
-alert("You drove " +milesDriven+ " miles today and made $" + milesTotal +" on mileage");
+alert("You drove " +milesDriven+ " miles today and made $" + milesTotal +" on mileage");//Alert user response
 
 var totalPay = milesTotal + deliveryTotal;
 
@@ -90,5 +87,5 @@ var totalPay = milesTotal + deliveryTotal;
 
 //The result
 console.log("Thank you for your hard work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");//Console.log out the response
-alert("Thank you for your hard work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");
+alert("Thank you for your hard work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");//Alert user response
 
