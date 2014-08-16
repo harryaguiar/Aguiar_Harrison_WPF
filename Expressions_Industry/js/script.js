@@ -10,10 +10,10 @@ Industry-specific: This second set should be something related to either your cu
 A good example of this would be something that calculates how many pixels square an image resolution is based on image dpi, width and height.
 */
 
-var deliveryPay = 2.15;
-var milesPay = 1.07;
-var dayTime = 12;
 
+
+//Say hello to the user and let them know what we are doing
+//ALERT the user
 
 alert("Hello! Let's find out how much money you made today. Click 'Ok' to start!")
 
@@ -23,32 +23,27 @@ alert("Hello! Let's find out how much money you made today. Click 'Ok' to start!
 var name = prompt("Please type in your name:");
 console.log(name);//Console.log out the response
 
-//Say hello to the user and let them know what we are doing
-//ALERT the user
 
 
-//Ask the user what year ther were born in
+
 //Create a variable to catch their answer
-var timeIn = prompt("Hi " +name+ "! What time did you get in?");
+var timeIn = prompt("Hi " +name+ "! What time did you get in?");//variable to find out what time user entered the job
 
 //Console.log out the response
 console.log(timeIn);
 
 
-//Ask the user what year ther were born in
+
 //Create a variable to catch their answer
-var timeOut = prompt("What time are you getting out?");
+var timeOut = prompt("What time are you getting out?");//variable to find out what time user is leaving the job
 
 //Console.log out the response
 console.log(timeOut);
-//Current Year and subtract the year ther were born
-
-//Create a variable for the current year
 
 
+var maxHours = 12;//variable for max of hours worked
 
-
-var totalTime = (12-timeIn) - (12-timeOut);
+var totalTime = (maxHours-timeIn) - (maxHours-timeOut); //variable for time working, store runs only from 12:00pm to 11:00pm
 
 //Alert user total time worked
 alert(name+ ", you worked " +totalTime+ " hours today.");
@@ -59,29 +54,29 @@ alert(name+ ", you worked " +totalTime+ " hours today.");
 var deliveries = prompt("How many deliveries did you make today?");
 console.log(deliveries);//Console.log out the response
 
+var deliveryEachPay = 2.15; //variable for amount paid for each delivery
 
-
-var deliveryTotal = deliveries * 2.15;
+var deliveryTotal = deliveries * deliveryEachPay;//variable to find out how will be paid only for the deliveries
 
 //Console.log out the response
 console.log("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" on deliveries.");
 alert("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" on deliveries."); //Alert user response
 
-//Create a variable to catch their answer
+//Create a variable to catch their answer for how many miles driven
 var milesDriven = prompt("How many miles did you drive today?");
 console.log(milesDriven);//Console.log out the response
 
+var mileageEachPay = 1.07; //variable for amount paid for each mileage
 
 
-
-var milesTotal = milesDriven * 1.07;
+var milesTotal = milesDriven * mileageEachPay;//variable to find out how will be paid only for the mileage
 
 
 //Make the result look pretty :)
 console.log("You drove " +milesDriven+ " miles today and made $" + milesTotal +" on mileage.");//Console.log out the response
 alert("You drove " +milesDriven+ " miles today and made $" + milesTotal +" on mileage");//Alert user response
 
-var totalPay = milesTotal + deliveryTotal;
+var totalPay = milesTotal + deliveryTotal;//variable for total amount made on the night
 
 
 
