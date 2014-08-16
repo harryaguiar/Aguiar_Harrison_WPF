@@ -41,12 +41,12 @@ console.log(creditsNeeded); //Console.log out the response
 var creditsLeft = Number(creditsNeeded) - Number(creditsTaken); //credits left to be taken variable
 //the result
 console.log(name+ ", you still have " +creditsLeft+ " to take."); //Console.log out the response
-alert(name+ ", you still have " +creditsLeft+ " to take.");
+alert(name+ ", you still have " +creditsLeft+ " to take.");//alert user the result
 
 
 //Ask the user what year started college
 //Create a variable to catch their answer
-var timeIn = prompt("Hi " +name+ "! What year did you start at college?");
+var timeIn = prompt("Hi " +name+ "! What year did you start at college?");//variable to find out when user entered college
 
 //Console.log out the response
 console.log(timeIn);
@@ -54,7 +54,7 @@ console.log(timeIn);
 
 //Ask the user what year they expect to graduate
 //Create a variable to catch their answer
-var timeOut = prompt("In what year is your expected Graduation year?");
+var timeOut = prompt("In what year is your expected Graduation year?");//variable to find out year of graduation
 
 //Console.log out the response
 console.log(timeOut);
@@ -63,20 +63,20 @@ console.log(timeOut);
 //Create a variable for the current year
 var currentYear = 2014;
 
-var yearsLeft = Number(timeOut) - Number(currentYear);
+var yearsLeft = Number(timeOut) - Number(currentYear);//variable to find out how many years left in college
 
 //Create a variable to catch their answer
 var yearBorn = prompt("In what year did you born?"); //find out what year they born
 
 
 
-var currentAge = Number(currentYear) - Number(yearBorn);
+var currentAge = Number(currentYear) - Number(yearBorn);//variable to find out user current age
 console.log(currentAge); //Console.log out the response
 
 
-var graduationAge = Number(yearsLeft) + Number(currentAge);
+var graduationAge = Number(yearsLeft) + Number(currentAge);//variable to find out how old user will be at graduation
 console.log(graduationAge); //Console.log out the response
 
 //the result
 console.log(name+ ", you are " +currentAge+ " years old. You will be " + graduationAge + " years old at your Graduation."); //Console.log out the response
-alert(name+ ", you are " +currentAge+ " years old. You will be " + graduationAge + " years old at your Graduation.");
+alert(name+ ", you are " +currentAge+ " years old. You will be " + graduationAge + " years old at your Graduation.");//alert user the result
