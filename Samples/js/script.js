@@ -1,32 +1,30 @@
-var triangle = new Object();
-triangle['sideA']   =   3;
-triangle['sideB']   =   4;
-triangle['sideC']   =   5;
-triangle['getArea'] =   function ( a, b, c ) {
-  // Return the area of a triangle using Heron's formula
-        
-  var semiperimeter   =   (a + b + c) / 2;
-  var calculation     =   semiperimeter * (semiperimeter - a) * (semiperimeter - b) * (semiperimeter - c);
-  return Math.sqrt( calculation );
-        
-}; 
+var timeIn = prompt("Hi " +name+ "! What year did you start at college?");
 
-var experienceRate = prompt("Before I give you the total amount you made today, could you grade your work day (from 0 to 4) for us?\nNote: 0 - Really Bad to 4 - Really good")
+//Console.log out the response
+console.log(timeIn);
 
 
+//Ask the user what year they expect to graduate
+//Create a variable to catch their answer
 
+var timeOut = prompt("In what year is your expected Graduation date?");
 
+//Console.log out the response
+console.log(timeOut);
+//Current Year and subtract the year ther were born
 
-console.log(experienceRate);
+//Create a variable for the current year
 
+var yearBorn = prompt("In what year did you born?"); //find out what year they born
 
-var experience = console.log(experienceRate);
-var experience = ["Really Bad", "Bad", "Okay", "Good", "Really Good"]; //0,1,2,3,4
+var currentYear = 2014
 
-experience [0] = "Really Bad"
-experience [2] = "Bad"
-experience [3] = "Okay"
-experience [4] = "Good"
-experience [5] = "Really Good" //0,1,2,3,4
+var currentAge = Number(currentYear) - Number(yearBorn);
+console.log(currentAge);
 
-alert(experience);
+var graduationAge = Number(timeOut) - Number(currentAge); 
+console.log(graduationAge)
+
+//the result
+console.log(name+ ", you are " +currentAge+ " years old. You will be " + graduationAge + "years old at your Graduation.");
+alert(name+ ", you are " +currentAge+ " years old. You will be " + graduationAge + "years old at your Graduation.");

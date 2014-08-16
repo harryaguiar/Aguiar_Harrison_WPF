@@ -85,10 +85,7 @@ alert("You drove " +milesDriven+ " miles today and made $" + milesTotal +" on mi
 
 var totalPay = milesTotal + deliveryTotal;
 
-var experienceRate = prompt("Before I give you the total amount you made today, could you grade your work day (from 0 to 4) for us?\nNote: 0 - Really Bad to 4 - Really good")
 
-var experienceRate = ["Really Bad", "Bad", "Okay", "Good", "Really Good"]; //0,1,2,3,4
-console.log(experienceRate[]);
 
 //The result
 console.log("Thank you for your hard work " +name+ ". You made $" +totalPay+ " today. Enjoy the rest of your day! See you tomorrow! :)");

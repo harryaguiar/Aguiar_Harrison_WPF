@@ -19,10 +19,12 @@ var name = prompt("Please type in your name:");
 console.log(name);
 
 var creditsTaken = prompt("How many credits have taken already?"); //credits already taken
+console.log(creditsTaken);
 
 var creditsNeeded = prompt("How many credits do you need to furfill your requirements?"); //credits needed to graduate
+console.log(creditsNeeded)
 
-var creditsLeft = Number(creditsNeeded) - Number(creditsLeft); //credits needed to take
+var creditsLeft = Number(creditsNeeded) - Number(creditsTaken); //credits needed to take
 
 console.log(name+ ", you still have " +creditsLeft+ " to take.");
 alert(name+ ", you still have " +creditsLeft+ " to take.");
@@ -50,12 +52,15 @@ console.log(timeOut);
 
 var yearBorn = prompt("In what year did you born?"); //find out what year they born
 
-var currentYear = 2014
+var currentYear = 2014;
 
-var currentAge = Number(currentYear - yearBorn);
+var currentAge = Number(currentYear) - Number(yearBorn);
+console.log(currentAge);
 
-var graduationAge = Number(timeOut - currentAge);
+
+var graduationAge = Number(timeOut) - Number(currentAge);
+console.log(graduationAge)
 
 //the result
-console.log(name+ ", you are " +currentAge+ " years old. You will be " +graduationAge+ "years old at your Graduation.");
-alert(name+ ", you are " +currentAge+ " years old. You will be " +graduationAge+ "years old at your Graduation.");
+console.log(name+ ", you are " +currentAge+ " years old. You will be " + graduationAge + "years old at your Graduation.");
+alert(name+ ", you are " +currentAge+ " years old. You will be " + graduationAge + "years old at your Graduation.");
