@@ -21,6 +21,7 @@ alert("Hi! Let's find out how much money you spent on food for the past week! \n
 //Create a js file that will tell us how old we are
 
 // Ask the user their name
+//Create a variable to catch their answer
 var name = prompt("Please type in your name:");
 console.log(name);
 
@@ -30,7 +31,6 @@ console.log(name);
 
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
-
 var breakfastHome = prompt("Hi " +name+ "! How many days did you have breakfast at home?");
 
 //Console.log out the response
@@ -39,7 +39,6 @@ console.log(breakfastHome);
 
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
-
 var breakfastSpent = prompt("How much did you spend daily in breakfast when you didn't have it at home?");
 
 //Console.log out the response
@@ -55,7 +54,6 @@ alert("You spent $" +breakfastTotalSpent+ " on breakfast this past week.");
 
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
-
 var lunchHome = prompt("How many days did you have lunch at home?");
 
 //Console.log out the response
@@ -64,7 +62,6 @@ console.log(lunchHome);
 
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
-
 var lunchSpent = prompt("How much did you spend daily in lunch when you didn't have it at home?");
 
 //Console.log out the response
@@ -80,7 +77,6 @@ alert("You spent $" +lunchTotalSpent+ " on lunch this past week.");
 
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
-
 var dinnerHome = prompt("How many days did you have dinner at home?");
 
 //Console.log out the response
@@ -89,7 +85,6 @@ console.log(dinnerHome);
 
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
-
 var dinnerSpent = prompt("How much did you spend daily in dinner when you didn't have it at home?");
 
 //Console.log out the response
@@ -105,7 +100,6 @@ alert("You spent $" +dinnerTotalSpent+ " on dinner this past week.");
 
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
-
 var snack = prompt("How much did you spend on snacks daily?");
 
 //Console.log out the response
@@ -121,7 +115,7 @@ alert("You spent $" +snackSpent+ " on snacks this past week.");
 
 alert("While our system is adding up your weekly spent, let's do a quick test.\nYou will give me a positive number and I will add it up to all the other consecutive numbers lower than it");
 var y=1
-var temp=prompt("Please type in your positive number:")
+var temp=prompt("Please type in your positive number:") //Create a variable to catch their answer
 for (x=2;x<=temp;x++){
 y=y+x
 }

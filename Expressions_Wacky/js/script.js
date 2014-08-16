@@ -25,25 +25,27 @@ alert(quote[x]);
 } 
 
 // Ask the user their name
+//Create a variable to catch their answer
 var name = prompt("Please type in your name:");
 console.log(name);
 
-//Find out 
-var creditsTaken = prompt("How many credits have taken already?"); //credits already taken
+//Find out how many credits still need to be taken
+//Create a variable to catch their answer
+var creditsTaken = prompt("How many credits have taken already?"); //credits already taken variable
 console.log(creditsTaken);
 
-var creditsNeeded = prompt("How many credits do you need to furfill your requirements?"); //credits needed to graduate
+//Create a variable to catch their answer
+var creditsNeeded = prompt("How many credits do you need to furfill your requirements?"); //credits needed to graduate variable
 console.log(creditsNeeded)
 
-var creditsLeft = Number(creditsNeeded) - Number(creditsTaken); //credits needed to take
-
+var creditsLeft = Number(creditsNeeded) - Number(creditsTaken); //credits left to be taken variable
+//the result
 console.log(name+ ", you still have " +creditsLeft+ " to take.");
 alert(name+ ", you still have " +creditsLeft+ " to take.");
 
 
 //Ask the user what year started college
 //Create a variable to catch their answer
-
 var timeIn = prompt("Hi " +name+ "! What year did you start at college?");
 
 //Console.log out the response
@@ -52,7 +54,6 @@ console.log(timeIn);
 
 //Ask the user what year they expect to graduate
 //Create a variable to catch their answer
-
 var timeOut = prompt("In what year is your expected Graduation year?");
 
 //Console.log out the response
@@ -64,6 +65,7 @@ var currentYear = 2014;
 
 var yearsLeft = Number(timeOut) - Number(currentYear);
 
+//Create a variable to catch their answer
 var yearBorn = prompt("In what year did you born?"); //find out what year they born
 
 

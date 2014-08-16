@@ -19,6 +19,7 @@ alert("Hello! Let's find out how much money you made today. Click 'Ok' to start!
 
 
 // Ask the user their name
+//Create a variable to catch their answer
 var name = prompt("Please type in your name:");
 console.log(name);
 
@@ -28,7 +29,6 @@ console.log(name);
 
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
-
 var timeIn = prompt("Hi " +name+ "! What time did you get in?");
 
 //Console.log out the response
@@ -37,7 +37,6 @@ console.log(timeIn);
 
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
-
 var timeOut = prompt("What time are you getting out?");
 
 //Console.log out the response
@@ -60,6 +59,7 @@ alert(name+ ", you worked " +totalTime+ " hours today.");
 
 
 //Ask the user, how many deliveries they made
+//Create a variable to catch their answer
 var deliveries = prompt("How many deliveries did you make today?");
 console.log(deliveries);
 
@@ -70,6 +70,7 @@ var deliveryTotal = deliveries * 2.15;
 console.log("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" on deliveries.");
 alert("You made " +deliveries+ " deliveries today and made $" + deliveryTotal +" on deliveries.");
 
+//Create a variable to catch their answer
 var milesDriven = prompt("How many miles did you drive today?");
 console.log(milesDriven);
 
