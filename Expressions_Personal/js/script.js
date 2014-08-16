@@ -138,6 +138,8 @@ var total = Number(breakfastTotalSpent) + Number(lunchTotalSpent) + Number(dinne
 console.log("You spent $" +total+ " on food this past week.");
 alert("You spent $" +total+ " on food this past week.");
 
+alert(+name+", thank you for participating on our survey!")
+
 
 
 
