@@ -40,7 +40,7 @@ console.log(breakfastHome);
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
 
-var breakfastSpent = prompt("How much did you spend in breakfast when you didn't have it at home?");
+var breakfastSpent = prompt("How much did you spend daily in breakfast when you didn't have it at home?");
 
 //Console.log out the response
 console.log(breakfastSpent);
@@ -65,7 +65,7 @@ console.log(lunchHome);
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
 
-var lunchSpent = prompt("How much did you spend in lunch when you didn't have it at home?");
+var lunchSpent = prompt("How much did you spend daily in lunch when you didn't have it at home?");
 
 //Console.log out the response
 console.log(lunchSpent);
@@ -90,7 +90,7 @@ console.log(dinnerHome);
 //Ask the user what year ther were born in
 //Create a variable to catch their answer
 
-var dinnerSpent = prompt("How much did you spend in dinner when you didn't have it at home?");
+var dinnerSpent = prompt("How much did you spend daily in dinner when you didn't have it at home?");
 
 //Console.log out the response
 console.log(dinnerSpent);
@@ -121,13 +121,14 @@ alert("You spent $" +snackSpent+ " on snacks this past week.");
 
 alert("While our system is adding up your weekly spent, let's do a quick test.\nYou will give me a positive number and I will add it up to all the other consecutive numbers lower than it");
 var y=1
-var temp=prompt("Please input a positive integer:")
+var temp=prompt("Please type in your positive number:")
 for (x=2;x<=temp;x++){
 y=y+x
 }
 alert("1+2+...+"+temp+"="+y)
 
 
+alert("Now, let's find out how much you spent for this past week")
 
 var total = Number(breakfastTotalSpent) + Number(lunchTotalSpent) + Number(dinnerTotalSpent) + Number(snackSpent);
 
