@@ -32,3 +32,44 @@ if (competitorWeight >= 250) {
 	//it its less than 250
 	console.log("The competitor needs to gain some weight!");
 };
+
+
+var temp = 32; //in celsius
+var unit = "C";
+
+if (unit == "C") {
+	console.log("The temperature is " +temp+ " degrees Celsius");
+}else{
+	console.log("The temperature is " +temp+ " X degrees Fahrenheit.");
+};
+
+
+
+
+
+
+/*
+
+
+if (courtesyVal >= 4 || overallVal >= 4) {
+    courtesyVal = "A";
+    overallVal = "A";
+} 
+else if (courtesyVal >= 3 || overallVal >= 3) {
+    courtesyVal = "B";
+    overallVal = "B";
+} 
+else if (courtesyVal >= 2 || overallVal >= 2) {
+    courtesyVal = "C";
+    overallVal = "C";
+} 
+else if (courtesyVal >= 1 || overallVal >= 1) {
+    courtesyVal = "D"; 
+    overallVal = "D";
+} 
+else {
+    courtesyVal = "F"; 
+    overallVal = "F";
+}
+
+*/
