@@ -100,7 +100,7 @@ if (kidHeight > minHeight) {
 
 
 //Conditional Logic - Else if
-
+/*
 var kidHeight = 52;
 var minHeight = 48;
 var wParentHeight = 45; //the height of the kid with the parent
@@ -116,7 +116,22 @@ if (kidHeight > minHeight) {
 	//sorry you have growing to do
 	console.log("Sorry kid, you've got some growing to do first!");
 };
+*/
 
+
+
+//Conditional Logic - Logical Operators && = AND
+
+var budget = 300;
+var iPhonePrice = 199.99;
+var paycheck = 200;
+
+//if the price of the phone is less of our budget AND if our paycheck is over 300
+if (iPhonePrice < budget && paycheck > 300) {
+	console.log("We can buy the phone!");
+}else{
+	console.log("No phone for you!!");
+};
 
 
 
