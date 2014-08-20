@@ -109,7 +109,7 @@ var wParentHeight = 45; //the height of the kid with the parent
 if (kidHeight > minHeight) {
 	//you can ride!
 	console.log("You can ride the coaster!");
-}if (kidHeight > wParentHeight) {
+}else if (kidHeight > wParentHeight) {
 	//you can ride with a parent present
 	console.log("You can ride, but only with a parent present.");
 }else{
