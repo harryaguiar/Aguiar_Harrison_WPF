@@ -150,8 +150,8 @@ if (iPhonePrice < budget || wonLottery) {
 */
 
 
-//Conditional Logic - Ternary Operators
-
+//Conditional Logic - Ternary Operators Part 1
+/*
 var age = 11;
 var book;
 
@@ -163,6 +163,16 @@ if (age < 10) {
 	book = "The Time Machine"
 };
 console.log(book);
+*/
+
+//Conditional Logic - Ternary Operators Part 2
+
+var age = 11
+var book;
+//if the child is under 10, they get Green Eggs and Ham, otherwise they get The Time Machine
+book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
+console.log(book);
+
 
 
 
