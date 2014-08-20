@@ -24,3 +24,14 @@ if (temp>70) {
 if (temp ==75) {
 	goToTheBeach();
 }
+
+
+if (sunny) {
+	goToTheBeach();
+	if (warmWater) {
+		wearNewSuit();
+	}
+}else{
+	goToTheMovies();
+}
+
