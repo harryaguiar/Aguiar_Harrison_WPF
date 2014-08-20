@@ -5,6 +5,9 @@ Expression Personal
 8-19-14
 */
 
+
+//Intro videos
+/*
 if (condition) {
 	actions
 };
@@ -34,4 +37,8 @@ if (sunny) {
 }else{
 	goToTheMovies();
 }
+
+*/
+
+//Conditional Logic
 
