@@ -88,22 +88,22 @@ if (gasCapacity >= 200) {
 //Determine the appropriate letter grade for a number grade
 var grade = 87; // % grade
 
-if (grade >= 95) {
-	console.log("You have a " +grade+ "%, which means you have earned an A+ in the class!");
-}else if (grade >= 90) {
-	console.log("You have a " +grade+ "%, which means you have earned an A in the class!");
-}else if (grade >= 85) {
-	console.log("You have a " +grade+ "%, which means you have earned a B+ in the class!");
-}else if (grade >= 80) {
-	console.log("You have a " +grade+ "%, which means you have earned a B in the class!");
-}else if (grade >= 76) {
-	console.log("You have a " +grade+ "%, which means you have earned a C+ in the class!");
-}else if (grade >= 73) {
-	console.log("You have a " +grade+ "%, which means you have earned a C in the class!");
-}else if (grade >= 70) {
-	console.log("You have a " +grade+ "%, which means you have earned a D in the class!");
-}else{
-	console.log("You have a " +grade+ "%, which means you have earned a F in the class!");
+if (grade >= 95) { // if grade is between 95 - 100
+	console.log("You have a " +grade+ "%, which means you have earned an A+ in the class!");// print out result between 95 - 100
+}else if (grade >= 90) { // if grade is between 90 - 95
+	console.log("You have a " +grade+ "%, which means you have earned an A in the class!"); // print out result between 90 - 95
+}else if (grade >= 85) { // if grade is between 85 - 89
+	console.log("You have a " +grade+ "%, which means you have earned a B+ in the class!"); // print out result between 85 - 89
+}else if (grade >= 80) { // if grade is between 80 - 84
+	console.log("You have a " +grade+ "%, which means you have earned a B in the class!"); // print out result between 80 - 84
+}else if (grade >= 76) { // if grade is between 76 - 79
+	console.log("You have a " +grade+ "%, which means you have earned a C+ in the class!"); // print out result between 76 - 79
+}else if (grade >= 73) { // if grade is between 73 - 75
+	console.log("You have a " +grade+ "%, which means you have earned a C in the class!"); // print out result between 73 - 75
+}else if (grade >= 70) { // if grade is between 70 - 72
+	console.log("You have a " +grade+ "%, which means you have earned a D in the class!"); // print out result between 70 - 72
+}else{ // if grade is lower than 70
+	console.log("You have a " +grade+ "%, which means you have earned a F in the class!"); // print out result lower than 70
 };
 
 
