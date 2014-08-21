@@ -6,3 +6,13 @@ Conditionals Industry
 */
 
 //Quotation for a web design work
+
+//Given
+var = 
+var =
+
+
+
+var = prompt("")
+
+var = prompt("")
