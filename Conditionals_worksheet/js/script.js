@@ -114,8 +114,8 @@ if (grade >= 95) { // if grade is between 95 - 100
 
 var username = "Harry"
 var password = "fsu2014"
-var usernameCorrect = "Harry0"
-var passwordCorrect = "fsu2012"
+var usernameCorrect = "Harry"
+var passwordCorrect = "fsu2014"
 
 if (username === usernameCorrect && password === passwordCorrect) {
 	console.log("Welcome, " +usernameCorrect+ "!");
