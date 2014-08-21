@@ -6,3 +6,17 @@ Conditionals Wacky
 */
 
 // Soccer table
+
+
+
+
+
+//Given
+var = 
+var =
+
+
+
+var = prompt("")
+
+var = prompt("")
