@@ -46,7 +46,7 @@ var unit = "F"; // to be converted to fahrenheit
 if (unit == "C") {
 
 	C = (temp-32) * 5 / 9; //formula to convert to Celsius
-	//it is un Celsius
+	//it is in Celsius
 	console.log("The temperature is " +C+ " degrees Celsius");
 
 }else{ // if unit given is in Fahrenheit
@@ -68,7 +68,7 @@ var tankCapacity = 15 // gallons
 var gasTank = tankCapacity*gasReading/100 //how many gallons are in the tank
 var gasCapacity = gasTank*gasEfficiency //how many miles can it take
 
-//if
+//if the
 if (gasCapacity >= 200) {
 	console.log("Yes, you can make it without stopping for gas!");
 }else{
