@@ -148,4 +148,22 @@ if (pressureTires[0] === pressureTires[1] /*front tires*/&& pressureTires[2] ===
 //Group 3 - Multiple Conditions - Part 2
 //Movie Ticket Price
 
+//Determine which of the two prices the customer is eligible for
+
+var timeMovie = 10;//Time of the movie
+var ageCustomer = 57;//age of the customer
+
+var discountTicket = 7.00;//price of discounted ticket
+var regularTicket = 12.00;//regular price ticket
+
+//if customer is 55 and older or under 10 or/and between 3pm and 5pm
+if (15 >= timeMovie <= 17) {
+	console.log("The ticket price is $" +discountTicket+ ".");
+}else if (ageCustomer >= 55) {
+	console.log("The ticket price is $" +discountTicket+ ".");
+}else if (ageCustomer <= 10) {
+	console.log("The ticket price is $" +discountTicket+ ".");
+}else{
+	console.log("The ticket price is $" +discountTicket+ ".");
+};
 
