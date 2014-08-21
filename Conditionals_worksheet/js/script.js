@@ -112,6 +112,18 @@ if (grade >= 95) { // if grade is between 95 - 100
 //Group 2 - Multiple Results - Part 2
 //Check Login
 
+var username = "Harry"
+var password = "fsu2014"
+var usernameCorrect = "Harry0"
+var passwordCorrect = "fsu2012"
+
+if (username === usernameCorrect && password === passwordCorrect) {
+	console.log("Welcome, " +usernameCorrect+ "!");
+}else if (username !== usernameCorrect) {
+	console.log("Username not found. Try again.");
+}else{
+	console.log("Password does not match our records.");
+};
 
 
 //------------------------------------------------------------------------------------------------------------//
