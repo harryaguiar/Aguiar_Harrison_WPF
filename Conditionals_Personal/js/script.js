@@ -1,8 +1,8 @@
 /*
 Harrison Aguiar
 WPF 1408 Section 01
-Conditionals Worksheet
-8-19-14
+Conditionals Personal
+8-21-14
 */
 
 //Hot Enough?
