@@ -133,6 +133,13 @@ if (username === usernameCorrect && password === passwordCorrect) {//if the user
 //Group 3 - Multiple Conditions - Part 1
 //Tire Pressure
 
+var pressureTires = ["28", "28", "30", "30"];
+
+if (pressureTires[0] === pressureTires[1] && pressureTires[2] === pressureTires[3]) {
+	console.log("The tires pass spec!");
+}else{
+	console.log("Get your tires checked out!")
+};
 
 //------------------------------------------------------------------------------------------------------------//
 
@@ -140,29 +147,3 @@ if (username === usernameCorrect && password === passwordCorrect) {//if the user
 //Movie Ticket Price
 
 
-
-/*
-
-
-if (courtesyVal >= 4 || overallVal >= 4) {
-    courtesyVal = "A";
-    overallVal = "A";
-} 
-else if (courtesyVal >= 3 || overallVal >= 3) {
-    courtesyVal = "B";
-    overallVal = "B";
-} 
-else if (courtesyVal >= 2 || overallVal >= 2) {
-    courtesyVal = "C";
-    overallVal = "C";
-} 
-else if (courtesyVal >= 1 || overallVal >= 1) {
-    courtesyVal = "D"; 
-    overallVal = "D";
-} 
-else {
-    courtesyVal = "F"; 
-    overallVal = "F";
-}
-
-*/
