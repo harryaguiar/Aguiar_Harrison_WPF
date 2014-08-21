@@ -38,7 +38,7 @@ if (competitorWeight >= 250) {
 //Group 1 - Expression with conditionals
 //Celsius to Fahrenheit
 
-//
+//If the user puts a “C” for the unit, convert the temperature to Celsius or vice versa.
 var temp = 39; // in fahrenheit
 var unit = "F"; // to be converted to fahrenheit
 
@@ -58,8 +58,27 @@ if (unit == "C") {
 };
 
 
+//Last chance for gas
+
+//determine if the user should stop now for gas or if he can make until the next gas station 200 miles away
+var gasEfficiency = 30; // mpg
+var gasReading = 25; // %
+var tankCapacity = 15 // gallons
+
+var gasTank = tankCapacity*gasReading/100 //how many gallons are in the tank
+var gasCapacity = gasTank*gasEfficiency //how many miles can it take
+
+//if
+if (gasCapacity >= 200) {
+	console.log("Yes, you can make it without stopping for gas!");
+}else{
+	console.log("You only have " +gasTank+ " gallons of gas in your tank, better get gas now while you can!")
+};
+
+
 //Group 2 - Multiple Results
 //Celsius to Fahrenheit
+
 
 //Group 3 - Multiple Conditions
 //Celsius to Fahrenheit
