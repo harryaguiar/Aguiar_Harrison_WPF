@@ -34,17 +34,35 @@ if (competitorWeight >= 250) {
 };
 
 
-var temp = 32; //in celsius
-var unit = "C";
 
+//Group 1 - Expression with conditionals
+//Celsius to Fahrenheit
+
+//
+var temp = 39; // in fahrenheit
+var unit = "F"; // to be converted to fahrenheit
+
+// if the unit given is in Celsius
 if (unit == "C") {
-	console.log("The temperature is " +temp+ " degrees Celsius");
-}else{
-	console.log("The temperature is " +temp+ " X degrees Fahrenheit.");
+
+	C = (temp-32) * 5 / 9; //formula to convert to Celsius
+	//it is un Celsius
+	console.log("The temperature is " +C+ " degrees Celsius");
+
+}else{ // if unit given is in Fahrenheit
+
+	F = temp * 9 / 5 + 32; //formula to convert to Fahrenheit
+	//it is in Fahrenheit
+	console.log("The temperature is " +F+ " degrees Fahrenheit.");
+
 };
 
 
+//Group 2 - Multiple Results
+//Celsius to Fahrenheit
 
+//Group 3 - Multiple Conditions
+//Celsius to Fahrenheit
 
 
 
