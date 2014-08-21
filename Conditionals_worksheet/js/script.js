@@ -89,9 +89,9 @@ if (gasCapacity >= 200) {
 var grade = 87; // %
 
 if (grade >= 95) {
-	console.log("You have a " +grade+ "%, which means you have earned a A+ in the class!");
+	console.log("You have a " +grade+ "%, which means you have earned an A+ in the class!");
 }else if (grade >= 90) {
-	console.log("You have a " +grade+ "%, which means you have earned a A in the class!");
+	console.log("You have a " +grade+ "%, which means you have earned an A in the class!");
 }else if (grade >= 85) {
 	console.log("You have a " +grade+ "%, which means you have earned a B+ in the class!");
 }else if (grade >= 80) {
