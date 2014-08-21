@@ -39,8 +39,8 @@ if (competitorWeight >= 250) {
 //Celsius to Fahrenheit
 
 //If the user puts a “C” for the unit, convert the temperature to Celsius or vice versa.
-var temp = 39; // in fahrenheit
-var unit = "F"; // to be converted to fahrenheit
+var temp = 39; // degrees
+var unit = "F"; // unit - to be converted to fahrenheit
 
 // if the unit given is in Celsius
 if (unit == "C") {
@@ -63,9 +63,9 @@ if (unit == "C") {
 //Last chance for gas
 
 //determine if the user should stop now for gas or if he can make until the next gas station 200 miles away
-var gasEfficiency = 30; // mpg
-var gasReading = 25; // %
-var tankCapacity = 15 // gallons
+var gasEfficiency = 30; // mpg - gas effiency of the car
+var gasReading = 25; // % - gauge reading of the gas tank
+var tankCapacity = 15 // gallons - car's gas tank capacity
 
 var gasTank = tankCapacity*gasReading/100 //how many gallons are in the tank
 var gasCapacity = gasTank*gasEfficiency //how many miles can it take
@@ -85,8 +85,8 @@ if (gasCapacity >= 200) {
 //Group 2 - Multiple Results - Part 1
 //Grade Calculator
 
-
-var grade = 87; // %
+//Determine the appropriate letter grade for a number grade
+var grade = 87; // % grade
 
 if (grade >= 95) {
 	console.log("You have a " +grade+ "%, which means you have earned an A+ in the class!");
