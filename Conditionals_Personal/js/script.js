@@ -6,3 +6,14 @@ Conditionals Personal
 */
 
 //Monthly bills
+
+
+//Given
+var = 
+var =
+
+
+
+var = prompt("")
+
+var = prompt("")
