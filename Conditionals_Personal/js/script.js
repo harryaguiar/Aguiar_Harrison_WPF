@@ -13,7 +13,11 @@ var =
 var =
 
 
-
+//essential
 var = prompt("")
 
 var = prompt("")
+
+
+//result
+console.log(" ")
