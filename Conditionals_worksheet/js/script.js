@@ -35,7 +35,7 @@ if (competitorWeight >= 250) {
 
 //------------------------------------------------------------------------------------------------------------//
 
-//Group 1 - Expression with conditionals
+//Group 1 - Expression with conditionals - Part 1
 //Celsius to Fahrenheit
 
 //If the user puts a “C” for the unit, convert the temperature to Celsius or vice versa.
@@ -59,6 +59,7 @@ if (unit == "C") {
 
 //------------------------------------------------------------------------------------------------------------//
 
+//Group 1 - Expression with conditionals - Part 2
 //Last chance for gas
 
 //determine if the user should stop now for gas or if he can make until the next gas station 200 miles away
@@ -81,12 +82,27 @@ if (gasCapacity >= 200) {
 
 //------------------------------------------------------------------------------------------------------------//
 
-//Group 2 - Multiple Results
-//Celsius to Fahrenheit
+//Group 2 - Multiple Results - Part 1
+//Grade Calculator
 
 
-//Group 3 - Multiple Conditions
-//Celsius to Fahrenheit
+//------------------------------------------------------------------------------------------------------------//
+
+//Group 2 - Multiple Results - Part 2
+//Check Login
+
+
+
+//------------------------------------------------------------------------------------------------------------//
+
+//Group 3 - Multiple Conditions - Part 1
+//Tire Pressure
+
+
+//------------------------------------------------------------------------------------------------------------//
+
+//Group 3 - Multiple Conditions - Part 2
+//Movie Ticket Price
 
 
 
