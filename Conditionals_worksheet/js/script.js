@@ -86,6 +86,27 @@ if (gasCapacity >= 200) {
 //Grade Calculator
 
 
+var grade = 87; // %
+
+if (grade >= 95) {
+	console.log("You have a " +grade+ "%, which means you have earned a A+ in the class!");
+}else if (grade >= 90) {
+	console.log("You have a " +grade+ "%, which means you have earned a A in the class!");
+}else if (grade >= 85) {
+	console.log("You have a " +grade+ "%, which means you have earned a B+ in the class!");
+}else if (grade >= 80) {
+	console.log("You have a " +grade+ "%, which means you have earned a B in the class!");
+}else if (grade >= 76) {
+	console.log("You have a " +grade+ "%, which means you have earned a C+ in the class!");
+}else if (grade >= 73) {
+	console.log("You have a " +grade+ "%, which means you have earned a C in the class!");
+}else if (grade >= 70) {
+	console.log("You have a " +grade+ "%, which means you have earned a D in the class!");
+}else{
+	console.log("You have a " +grade+ "%, which means you have earned a F in the class!");
+};
+
+
 //------------------------------------------------------------------------------------------------------------//
 
 //Group 2 - Multiple Results - Part 2
