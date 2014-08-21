@@ -33,7 +33,7 @@ if (competitorWeight >= 250) {
 	console.log("The competitor needs to gain some weight!");
 };
 
-
+//------------------------------------------------------------------------------------------------------------//
 
 //Group 1 - Expression with conditionals
 //Celsius to Fahrenheit
@@ -57,6 +57,7 @@ if (unit == "C") {
 
 };
 
+//------------------------------------------------------------------------------------------------------------//
 
 //Last chance for gas
 
@@ -68,13 +69,17 @@ var tankCapacity = 15 // gallons
 var gasTank = tankCapacity*gasReading/100 //how many gallons are in the tank
 var gasCapacity = gasTank*gasEfficiency //how many miles can it take
 
-//if the
+//if the gas in the tank can make to the next 200 miles
 if (gasCapacity >= 200) {
+	//it can make to the next 200 miles
 	console.log("Yes, you can make it without stopping for gas!");
 }else{
+	//it can not make to the next 200 miles
 	console.log("You only have " +gasTank+ " gallons of gas in your tank, better get gas now while you can!")
 };
 
+
+//------------------------------------------------------------------------------------------------------------//
 
 //Group 2 - Multiple Results
 //Celsius to Fahrenheit
