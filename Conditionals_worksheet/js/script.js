@@ -133,12 +133,14 @@ if (username === usernameCorrect && password === passwordCorrect) {//if the user
 //Group 3 - Multiple Conditions - Part 1
 //Tire Pressure
 
-var pressureTires = ["28", "28", "30", "30"];
+//Determine if the tires of a given car are up to spec
+var pressureTires = ["28", "28", "30", "31"];//pressure for each tire of the car 
 
-if (pressureTires[0] === pressureTires[1] && pressureTires[2] === pressureTires[3]) {
-	console.log("The tires pass spec!");
-}else{
-	console.log("Get your tires checked out!")
+//if the front tires have the same psi AND rear tires have the same psi
+if (pressureTires[0] === pressureTires[1] /*front tires*/&& pressureTires[2] === pressureTires[3]/* rear tires*/) {
+	console.log("The tires pass spec!"); //print out front tires have the same psi AND the rear tires have the same psi
+}else{//if the front tires does not have the same psi OR/AND if rear tires does not have the same psi
+	console.log("Get your tires checked out!");//print out front tires does not have the same psi AND/OR the rear tires does not have the same psi
 };
 
 //------------------------------------------------------------------------------------------------------------//
