@@ -157,9 +157,9 @@ var discountTicket = 7.00;//price of discounted ticket
 var regularTicket = 12.00;//regular price ticket
 
 
-if (15 <= timeMovie && timeMovie <= 17 || ageCustomer >= 55 || ageCustomer < 10) {//if customer goes between 3pm or 5pm
-	console.log("The ticket price is $" +discountTicket+ ".");
+if (15 <= timeMovie && timeMovie <= 17 || ageCustomer >= 55 || ageCustomer < 10) {//if customer goes between 3pm or 5pm or is 55 and over or is under 10
+	console.log("The ticket price is $" +discountTicket+ ".");// print out the discounted price
 }else{//if customer is not 55 and older or under 10 or/and does not go between 3pm and 5pm
-	console.log("The ticket price is $" +regularTicket+ ".");
+	console.log("The ticket price is $" +regularTicket+ "."); //print out the regular price
 };
 
