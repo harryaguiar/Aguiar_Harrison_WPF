@@ -10,8 +10,8 @@ Conditionals Personal
 //Determine how much user spend in a year with monthly bills
 
 //Given
-var yearMonths = 12;
-var answerNo = 0;
+var yearMonths = 12;//number of months in a year
+var answerNo = 0;//value given for every "no" as answer
 
 
 var name = prompt("Please type in your name")
