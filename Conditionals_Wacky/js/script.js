@@ -20,11 +20,15 @@ var lost = 0;
 //essential
 var team = prompt("What is your team?");
 
-if (name === "") {
+if (team === "") {
 	team = prompt("Please enter your team name!");
 };
 
 var gameResult = prompt("Did your team win, draw or lost the last game?");
+
+if (gameResult === "") {
+	gameResult = prompt("Please enter your team name!");
+};
 
 if (gameResult === "win"){
 	console.log("Your team " +team+ " won " +victory+ "points from the last game.");
