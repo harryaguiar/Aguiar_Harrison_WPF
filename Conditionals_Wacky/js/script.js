@@ -13,52 +13,53 @@ Conditionals Wacky
 
 //Given
 var victory = 3; //points given for a victory
-var tie = 1; // points given for a 
-var lost = 0;
+var tie = 1; // points given for a tie
+var lost = 0; // points given for a lost
 
 
-//essential
+//ask user what team does he chear for
 var team = prompt("What is your team?");
 
-if (team === "") {
+if (team === "") {//validation
 	team = prompt("Please enter your team name!");
 };
 
+//ask user if team won, tied or lost on the last game
 var gameResult = prompt("Did your team had a win, tie or a lost on the last game?");
-	console.log(gameResult)
+	console.log(gameResult)// print out result
 
-if (gameResult === "") {
+if (gameResult === "") {//validation
 	gameResult = prompt("Please answer if your team had a win, tie or a lost!");
 };
 
-if (gameResult === "win"){
-	console.log("Your team " +team+ " won " +victory+ " points from the last game.");
-	alert("Your team " +team+ " won " +victory+ " points from the last game.");
-}else if (gameResult === "tie") {
-	console.log("Your team " +team+ " won " +tie+ " points from the last game.");
-	alert("Your team " +team+ " won " +tie+ " points from the last game.");
-}else if (gameResult === "lost") {
-	console.log("Your team " +team+ " won " +lost+ " points from the last game.");
-	alert("Your team " +team+ " won " +lost+ " points from the last game.");
+if (gameResult === "win"){//if the answer is a win
+	console.log("Your team " +team+ " won " +victory+ " points from the last game.");// print out result
+	alert("Your team " +team+ " won " +victory+ " points from the last game.");// alert user the result
+}else if (gameResult === "tie") {//if the answer is a tie
+	console.log("Your team " +team+ " won " +tie+ " points from the last game.");// print out result
+	alert("Your team " +team+ " won " +tie+ " points from the last game.");// alert user the result
+}else if (gameResult === "lost") {//if the answer is a lost
+	console.log("Your team " +team+ " won " +lost+ " points from the last game.");// print out result
+	alert("Your team " +team+ " won " +lost+ " points from the last game.");// alert user the result
 };
 
 var pointsBefore = prompt("How many points did your team have before this game?")
-	console.log(pointsBefore)
+	console.log(pointsBefore)// print out result
 
-if (pointsBefore === "") {
+if (pointsBefore === "") {//validation
 	pointsBefore = prompt("Please answer how many points your team had before this game!");
 };
 
-if (gameResult === "win"){
-	var totalPoints = parseInt(victory) + parseInt(pointsBefore)
-	console.log(team+ " has now " +totalPoints+ " on the league."); //"Your team " +team+ " won " +victory+ " points from the last game.
-	alert(team+ " has now " +totalPoints+ " on the league.");
-}else if (gameResult === "tie") {
-	var totalPoints = parseInt(tie) + parseInt(pointsBefore)
-	console.log(team+ " has now " +totalPoints+ " on the league.");
-	alert(team+ " has now " +totalPoints+ " on the league.");
-}else if (gameResult === "lost") {
-	var totalPoints = parseInt(lost) + parseInt(pointsBefore)
-	console.log(team+ " has now " +totalPoints+ " on the league.");
-	alert(team+ " has now " +totalPoints+ " on the league.");
+if (gameResult === "win"){//if team won add with points team had before the game
+	var totalPoints = parseInt(victory) + parseInt(pointsBefore)//points given + points had before
+	console.log(team+ " has now " +totalPoints+ " on the league.");// print out result
+	alert(team+ " has now " +totalPoints+ " on the league.");// alert user the result
+}else if (gameResult === "tie") {//if team tied add with points team had before the game
+	var totalPoints = parseInt(tie) + parseInt(pointsBefore)//points given + points had before
+	console.log(team+ " has now " +totalPoints+ " on the league.");// print out result
+	alert(team+ " has now " +totalPoints+ " on the league.");// alert user the result
+}else if (gameResult === "lost") {//if team lost add with points team had before the game
+	var totalPoints = parseInt(lost) + parseInt(pointsBefore)//points given + points had before
+	console.log(team+ " has now " +totalPoints+ " on the league.");// print out result
+	alert(team+ " has now " +totalPoints+ " on the league.");// alert user the result
 };
