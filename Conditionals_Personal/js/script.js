@@ -13,7 +13,6 @@ Conditionals Personal
 var yearMonths = 12;//number of months in a year
 var answerNo = 0;//value given for every "no" as answer
 
-
 var name = prompt("Please type in your name")//ask user's name
 console.log(name)// print out result
 if (name === "") {//validation
