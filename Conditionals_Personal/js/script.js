@@ -12,6 +12,8 @@ Conditionals Personal
 var yearMonths = 12;
 var daysMonth = 30;
 
+var answerNo = 0;
+
 
 var name = prompt("Please type in your name")
 console.log(name)
@@ -23,19 +25,25 @@ var rent = prompt("Do you pay rent?")
 console.log(rent)
 if (rent === "") {
 	rent = prompt("Please enter yes or no!");
-}else if (rent == "yes") {
+}else if (rent === "yes") {
 	var rentBill = prompt("How much do you pay?")
 	console.log("You pay $" +rentBill+ " on rent.")
+}else if (rent === "no") {
+	var rentBill = answerNo;
+	console.log("You pay $" +rentBill+ " for your cellphone.")
 };
 
 var cellphone = prompt("Do you pay for your cellphone bill?")
 console.log(cellphone)
 if (cellphone === "") {
 	cellphone = prompt("Please enter yes or no!");
-}else if (cellphone == "yes") {
+}else if (cellphone === "yes") {
 	var cellphoneBill = prompt("How much do you pay?")
 	console.log("You pay $" +cellphoneBill+ " for your cellphone.")
-};
+}else if (cellphone === "no") {
+	var cellphoneBill = answerNo;
+	console.log("You pay $" +cellphoneBill+ " for your cellphone.")
+};;
 
 var cable = prompt("Do you pay for your cable?")
 console.log(cable)
@@ -43,7 +51,10 @@ if (cable === "") {
 	cable = prompt("Please enter yes or no!");
 }else if (cable === "yes") {
 	var cableBill = prompt("How much do you pay?")
-	console.log("You pay $" +cableBill+ " for you cable.")
+	console.log("You pay $" +cableBill+ " for your cable.")
+}else if (cable === "no") {
+	var cableBill = answerNo;
+	console.log("You pay $" +cableBill+ " for your cable.")
 };
 
 var train = prompt("Do you pay for the monthly metro card?")
@@ -53,9 +64,12 @@ if (train === "") {
 }else if (train === "yes") {
 	var trainBill = prompt("How much do you pay?")
 	console.log("You pay $" +trainBill+ " for your monthly metro card.")
+}else if (train === "no") {
+	var trainBill = answerNo;
+	console.log("You pay $" +trainBill+ " for your monthly metro card.")
 };
 
-var monthlyBill = (rentBill + cellphoneBill + cableBill + trainBill)*yearMonths
+var monthlyBill = (Number(rentBill) + Number(cellphoneBill) + Number(cableBill) + Number(trainBill)) * yearMonths
 console.log("You spend $" +monthlyBill+ " on your monthly bills every year.")
 
 //weekly
