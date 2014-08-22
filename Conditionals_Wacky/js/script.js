@@ -12,8 +12,8 @@ Conditionals Wacky
 
 
 //Given
-var victory = 3; 
-var drawn = 1;
+var victory = 3; //points given for a victory
+var tie = 1; // points given for a 
 var lost = 0;
 
 
@@ -24,19 +24,19 @@ if (team === "") {
 	team = prompt("Please enter your team name!");
 };
 
-var gameResult = prompt("Did your team had a win, drawn or a lost on the last game?");
+var gameResult = prompt("Did your team had a win, tie or a lost on the last game?");
 	console.log(gameResult)
 
 if (gameResult === "") {
-	gameResult = prompt("Please answer if your team had a win, drawn or a lost!");
+	gameResult = prompt("Please answer if your team had a win, tie or a lost!");
 };
 
 if (gameResult === "win"){
 	console.log("Your team " +team+ " won " +victory+ " points from the last game.");
 	alert("Your team " +team+ " won " +victory+ " points from the last game.");
-}else if (gameResult === "drawn") {
-	console.log("Your team " +team+ " won " +drawn+ " points from the last game.");
-	alert("Your team " +team+ " won " +drawn+ " points from the last game.");
+}else if (gameResult === "tie") {
+	console.log("Your team " +team+ " won " +tie+ " points from the last game.");
+	alert("Your team " +team+ " won " +tie+ " points from the last game.");
 }else if (gameResult === "lost") {
 	console.log("Your team " +team+ " won " +lost+ " points from the last game.");
 	alert("Your team " +team+ " won " +lost+ " points from the last game.");
@@ -53,8 +53,8 @@ if (gameResult === "win"){
 	var totalPoints = parseInt(victory) + parseInt(pointsBefore)
 	console.log(team+ " has now " +totalPoints+ " on the league."); //"Your team " +team+ " won " +victory+ " points from the last game.
 	alert(team+ " has now " +totalPoints+ " on the league.");
-}else if (gameResult === "drawn") {
-	var totalPoints = parseInt(drawn) + parseInt(pointsBefore)
+}else if (gameResult === "tie") {
+	var totalPoints = parseInt(tie) + parseInt(pointsBefore)
 	console.log(team+ " has now " +totalPoints+ " on the league.");
 	alert(team+ " has now " +totalPoints+ " on the league.");
 }else if (gameResult === "lost") {

@@ -5,13 +5,12 @@ Conditionals Personal
 8-21-14
 */
 
-//Annual Balance
+//Annual spending
 
+//Determine how much user spend in a year with monthly bills
 
 //Given
 var yearMonths = 12;
-var daysMonth = 30;
-
 var answerNo = 0;
 
 
