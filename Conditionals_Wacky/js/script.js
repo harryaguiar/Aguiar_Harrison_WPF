@@ -10,7 +10,6 @@ Conditionals Wacky
 //Determine how many points will a soccer team have after a game result 
 
 
-
 //Given
 var victory = 3; //points given for a victory
 var tie = 1; // points given for a tie
