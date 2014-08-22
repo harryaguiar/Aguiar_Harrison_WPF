@@ -24,15 +24,15 @@ licensable = (age < 16) ? "Too young":"Old enough";//if user is old enough to ta
 console.log(licensable)//print out result
 
 
-var license = prompt("Do you have a driver's license?")// ask user if he has driver's license
+var license = prompt("Do you have a driver's license?");// ask user if he has driver's license
 
 if (license === "") {//validation
 	license = prompt("Please enter yes or no!");
 }
 
 if (license === "no" && age > 16) {//if user doesn't have license and is over 16 
-	licenseProspect = prompt("Are you interested in taking driving classes?")// ask user if he is interested in taking driving classes
-}
+	licenseProspect = prompt("Are you interested in taking driving classes?");// ask user if he is interested in taking driving classes
+};
 
 if (licenseProspect === "") {//validation
 	licenseProspect = prompt("Please enter yes or no!");
