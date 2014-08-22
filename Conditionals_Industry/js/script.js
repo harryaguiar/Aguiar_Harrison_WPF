@@ -7,22 +7,39 @@ Conditionals Industry
 
 //Quotation for a web design work
 
-var name = prompt("Please type in your name")
-if (name === "") {
+var classCost = 23.99;//cost for each class
+
+
+var name = prompt("Please type in your name"); //ask user name
+if (name === "") {//validation
 	name = prompt("Please enter your name!");
 }
 
 
 var age = prompt("How old are you?");
-if (age === "") {
+if (age === "") {//validation
 	age = prompt("Please enter your age!");
 }
 
+licensable = (age < 18) ? "Too young":"Old enough";
+console.log(licensable)
+
+
 var license = prompt("Do you have a driver's license?")
 
-if (license === "") {
+if (license === "") {//validation
 	license = prompt("Please enter yes or no!");
-}else if (license === "no") {
-licensable = (age < 18) ? "Too young":"Old enough";
-console.log(licensable);
 }
+
+if (license === "no" && age > 18) {
+	licenseProspect = prompt("Are you interested in taking driving classes?")
+}
+
+if (licenseProspect === "") {//validation
+	licenseProspect = prompt("Please enter yes or no!");
+}else if (licenseProspect === "yes") {
+	classesNumber = prompt("How many classes are you willing to take?")
+};
+
+
+
