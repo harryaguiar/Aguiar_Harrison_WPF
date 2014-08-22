@@ -27,7 +27,7 @@ if (team === "") {
 var gameResult = prompt("Did your team had a win, drawn or a lost on the last game?");
 	console.log(gameResult)
 
-if (gameResult === "" || "win" || "drawn" || "lost") {
+if (gameResult === "") {
 	gameResult = prompt("Please answer if your team had a win, drawn or a lost!");
 };
 
