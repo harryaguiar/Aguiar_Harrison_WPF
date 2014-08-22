@@ -20,7 +20,9 @@ var lost = 0;
 //essential
 var team = prompt("What is your team?");
 
-
+if (name === "") {
+	team = prompt("Please enter your team name!");
+};
 
 var gameResult = prompt("Did your team win, draw or lost the last game?");
 
