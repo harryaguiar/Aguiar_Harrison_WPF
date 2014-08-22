@@ -11,19 +11,6 @@ Conditionals Personal
 //Given
 
 
-var daysWeek = ["Monday", "Tuesday"] 
-var =
-
-
-//essential
-var = prompt("")
-
-var = prompt("")
-
-
-//result
-console.log(" ")
-
 
 var name = prompt("Please type in your name")
 console.log(name)
@@ -32,34 +19,38 @@ if (name === "") {
 };
 
 var rent = prompt("Do you pay rent?")
-console.log(tv)
+console.log(rent)
 if (rent === "") {
 	rent = prompt("Please enter yes or no!");
 }else if (rent == "yes") {
 	var rentBill = prompt("How much do you pay?")
+	console.log("You pay $" +rentBill+ "on rent.")
 };
 
-/*
-var name = prompt("Please type in your name")
-console.log(name)
-if (name === "") {
-	name = prompt("Please enter your team name!");
+var rent = prompt("Do you pay rent?")
+console.log(rent)
+if (rent === "") {
+	rent = prompt("Please enter yes or no!");
+}else if (rent == "yes") {
+	var rentBill = prompt("How much do you pay?")
+	console.log("You pay $" +rentBill+ "on rent.")
 };
 
-var name = prompt("Please type in your name")
-console.log(name)
-if (name === "") {
-	name = prompt("Please enter your team name!");
+var rent = prompt("Do you pay rent?")
+console.log(rent)
+if (rent === "") {
+	rent = prompt("Please enter yes or no!");
+}else if (rent === "yes") {
+	var rentBill = prompt("How much do you pay?")
+	console.log("You pay $" +rentBill+ "on rent.")
 };
 
-var name = prompt("Please type in your name")
-console.log(name)
-if (name === "") {
-	name = prompt("Please enter your team name!");
+var rent = prompt("Do you pay rent?")
+console.log(rent)
+if (rent === "") {
+	rent = prompt("Please enter yes or no!");
+}else if (rent == "yes") {
+	var rentBill = prompt("How much do you pay?")
+	console.log("You pay $" +rentBill+ "on rent.")
 };
 
-var name = prompt("Please type in your name")
-console.log(name)
-if (name === "") {
-	name = prompt("Please enter your team name!");
-};
