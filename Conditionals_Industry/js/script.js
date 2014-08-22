@@ -13,14 +13,14 @@ var classWeek = 4;//number of classes per week
 var name = prompt("Please type in your name"); //ask user name
 if (name === "") {//validation
 	name = prompt("Please enter your name!");
-}
+};
 
 var age = prompt("How old are you?");// ask user age
 if (age === "") {//validation
 	age = prompt("Please enter your age!");
-}
+};
 
-licensable = (age < 16) ? "Too young":"Old enough";//if user is old enough to take driving classes
+licensable = (age < 16) ? "Too young":"Old enough"//if user is old enough to take driving classes
 console.log(licensable)//print out result
 
 
@@ -37,7 +37,7 @@ if (license === "no" && age > 16) {//if user doesn't have license and is over 16
 if (licenseProspect === "") {//validation
 	licenseProspect = prompt("Please enter yes or no!");
 }else if (licenseProspect === "yes") {//if user is interested on taking
-	classesNumber = prompt("How many classes are you willing to take?") //if so, ask user how many classes he would take
+	classesNumber = prompt("How many classes are you willing to take?"); //if so, ask user how many classes he would take
 };
 
 var totalPrice = Number(classesNumber) * classCost //calculate cost for all classes
