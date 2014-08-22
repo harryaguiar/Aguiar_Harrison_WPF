@@ -48,15 +48,15 @@ if (pointsBefore === "") {
 };
 
 if (gameResult === "win"){
-	var totalPoints = "victory" + pointsBefore
+	var totalPoints = victory + parseInt("pointsBefore")
 	console.log(+team+ " has now " +totalPoints+ " on the league.");
 	alert(+team+ " has now " +totalPoints+ " on the league.");
 }else if (gameResult === "drawn") {
-	var totalPoints = "drawn" + pointsBefore
+	var totalPoints = drawn + parseInt("pointsBefore")
 	console.log(+team+ " has now " +totalPoints+ " on the league.");
 	alert(+team+ " has now " +totalPoints+ " on the league.");
 }else if (gameResult === "lost") {
-	var totalPoints = drawn + pointsBefore
+	var totalPoints = lost + parseInt("pointsBefore")
 	console.log(+team+ " has now " +totalPoints+ " on the league.");
 	alert(+team+ " has now " +totalPoints+ " on the league.");
 };
