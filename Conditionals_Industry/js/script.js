@@ -10,7 +10,6 @@ Conditionals Industry
 var classCost = 23.99;//cost for each class
 var classWeek = 4;//number of classes per week
 
-
 var name = prompt("Please type in your name"); //ask user name
 if (name === "") {//validation
 	name = prompt("Please enter your name!");
