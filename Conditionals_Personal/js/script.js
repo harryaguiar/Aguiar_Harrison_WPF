@@ -5,10 +5,11 @@ Conditionals Personal
 8-21-14
 */
 
-//Monthly bills
+//Annual Balance
 
 
 //Given
+var yearMonths = 12;
 
 
 
@@ -24,33 +25,33 @@ if (rent === "") {
 	rent = prompt("Please enter yes or no!");
 }else if (rent == "yes") {
 	var rentBill = prompt("How much do you pay?")
-	console.log("You pay $" +rentBill+ "on rent.")
+	console.log("You pay $" +rentBill+ " on rent.")
 };
 
-var rent = prompt("Do you pay rent?")
-console.log(rent)
-if (rent === "") {
-	rent = prompt("Please enter yes or no!");
-}else if (rent == "yes") {
-	var rentBill = prompt("How much do you pay?")
-	console.log("You pay $" +rentBill+ "on rent.")
+var cellphone = prompt("Do you pay for your cellphone bill?")
+console.log(cellphone)
+if (cellphone === "") {
+	cellphone = prompt("Please enter yes or no!");
+}else if (cellphone == "yes") {
+	var cellphoneBill = prompt("How much do you pay?")
+	console.log("You pay $" +cellphoneBill+ " for your cellphone.")
 };
 
-var rent = prompt("Do you pay rent?")
-console.log(rent)
-if (rent === "") {
-	rent = prompt("Please enter yes or no!");
-}else if (rent === "yes") {
-	var rentBill = prompt("How much do you pay?")
-	console.log("You pay $" +rentBill+ "on rent.")
+var cable = prompt("Do you pay for your cable?")
+console.log(cable)
+if (cable === "") {
+	cable = prompt("Please enter yes or no!");
+}else if (cable === "yes") {
+	var cableBill = prompt("How much do you pay?")
+	console.log("You pay $" +cableBill+ " for you cable.")
 };
 
-var rent = prompt("Do you pay rent?")
-console.log(rent)
-if (rent === "") {
-	rent = prompt("Please enter yes or no!");
-}else if (rent == "yes") {
-	var rentBill = prompt("How much do you pay?")
-	console.log("You pay $" +rentBill+ "on rent.")
+var train = prompt("Do you pay for the monthly metro card?")
+console.log(train)
+if (train === "") {
+	train = prompt("Please enter yes or no!");
+}else if (train === "yes") {
+	var trainBill = prompt("How much do you pay?")
+	console.log("You pay $" +trainBill+ " for your monthly metro card.")
 };
 
