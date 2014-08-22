@@ -16,7 +16,6 @@ if (name === "") {//validation
 	name = prompt("Please enter your name!");
 }
 
-
 var age = prompt("How old are you?");// ask user age
 if (age === "") {//validation
 	age = prompt("Please enter your age!");
