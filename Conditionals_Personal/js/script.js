@@ -42,7 +42,7 @@ if (cellphone === "") {//validation
 }else if (cellphone === "no") {//if answer is no
 	var cellphoneBill = answerNo;
 	console.log("You pay $" +cellphoneBill+ " for your cellphone.")// print out result
-};;
+};
 
 var cable = prompt("Do you pay for your cable?")//ask user if pays for cable
 console.log(cable)// print out result
@@ -71,13 +71,3 @@ if (train === "") {//validation
 var monthlyBill = (Number(rentBill) + Number(cellphoneBill) + Number(cableBill) + Number(trainBill)) * yearMonths//calculation for the annual spending on bills
 console.log("You spend $" +monthlyBill+ " on your monthly bills for the year.")// print out result
 alert("You spend $" +monthlyBill+ " on your monthly bills for the year.")// alert user the result
-
-
-
-
-
-
-
-
-
-
