@@ -23,7 +23,6 @@ if (age === "") {//validation
 licensable = (age < 16) ? "Too young":"Old enough"//if user is old enough to take driving classes
 console.log(licensable)//print out result
 
-
 var license = prompt("Do you have a driver's license?");// ask user if he has driver's license
 
 if (license === "") {//validation
