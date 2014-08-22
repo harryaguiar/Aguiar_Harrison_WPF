@@ -8,6 +8,7 @@ Conditionals Industry
 //Quotation for a web design work
 
 var classCost = 23.99;//cost for each class
+var classWeek = 3;//number of classes per week
 
 
 var name = prompt("Please type in your name"); //ask user name
@@ -40,6 +41,9 @@ if (licenseProspect === "") {//validation
 }else if (licenseProspect === "yes") {
 	classesNumber = prompt("How many classes are you willing to take?")
 };
+
+var totalPrice = Number(classesNumber) + classCost
+console.log("The total for " +classesNumber+ " classes is $" +totalPrice)
 
 
 
