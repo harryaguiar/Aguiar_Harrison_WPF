@@ -50,4 +50,3 @@ var totalWeeks = Number(classesNumber) / classWeek //calculate how many weeks wi
 console.log("You will need " +totalWeeks+ " weeks to complete all " +classesNumber+ " classes.") // print out result
 alert("You will need " +totalWeeks+ " weeks to complete all " +classesNumber+ " classes.") // alert result to user 
 
-
