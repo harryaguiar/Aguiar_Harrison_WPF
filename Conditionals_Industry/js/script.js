@@ -22,32 +22,32 @@ if (age === "") {//validation
 	age = prompt("Please enter your age!");
 }
 
-licensable = (age < 16) ? "Too young":"Old enough";// print out result if user is old enough to take driving classes
-console.log(licensable)
+licensable = (age < 16) ? "Too young":"Old enough";//if user is old enough to take driving classes
+console.log(licensable)//print out result
 
 
-var license = prompt("Do you have a driver's license?")
+var license = prompt("Do you have a driver's license?")// ask user if he has driver's license
 
 if (license === "") {//validation
 	license = prompt("Please enter yes or no!");
 }
 
 if (license === "no" && age > 16) {//if user doesn't have license and is over 16 
-	licenseProspect = prompt("Are you interested in taking driving classes?")
+	licenseProspect = prompt("Are you interested in taking driving classes?")// ask user if he is interested in taking driving classes
 }
 
 if (licenseProspect === "") {//validation
 	licenseProspect = prompt("Please enter yes or no!");
-}else if (licenseProspect === "yes") {//if user is interested on taking 
-	classesNumber = prompt("How many classes are you willing to take?")
+}else if (licenseProspect === "yes") {//if user is interested on taking
+	classesNumber = prompt("How many classes are you willing to take?") //if so, ask user how many classes he would take
 };
 
-var totalPrice = Number(classesNumber) + classCost
-console.log("The total for " +classesNumber+ " classes is $" +totalPrice)
-alert("The total for " +classesNumber+ " classes is $" +totalPrice)
+var totalPrice = Number(classesNumber) * classCost //calculate cost for all classes
+console.log("The total for " +classesNumber+ " classes is $" +totalPrice) //print out result
+alert("The total for " +classesNumber+ " classes is $" +totalPrice) //alert result to user
 
-var totalWeeks = Number(classesNumber) / classWeek
-console.log("You will need " +totalWeeks+ " weeks to complete all " +classesNumber+ " classes.")
-alert("You will need " +totalWeeks+ " weeks to complete all " +classesNumber+ " classes.")
+var totalWeeks = Number(classesNumber) / classWeek //calculate how many weeks will take all classes
+console.log("You will need " +totalWeeks+ " weeks to complete all " +classesNumber+ " classes.") // print out result
+alert("You will need " +totalWeeks+ " weeks to complete all " +classesNumber+ " classes.") // alert result to user 
 
 
