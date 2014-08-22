@@ -52,15 +52,15 @@ if (pointsBefore === "") {
 if (gameResult === "win"){
 	var totalPoints = victory + Number("pointsBefore")
 	console.log(team+ " has now " +totalPoints+ " on the league."); //"Your team " +team+ " won " +victory+ " points from the last game.
-	alert(+team+ " has now " +totalPoints+ " on the league.");
+	alert(team+ " has now " +totalPoints+ " on the league.");
 }else if (gameResult === "drawn") {
 	var totalPoints = drawn + Number("pointsBefore")
-	console.log(+team+ " has now " +totalPoints+ " on the league.");
-	alert(+team+ " has now " +totalPoints+ " on the league.");
+	console.log(team+ " has now " +totalPoints+ " on the league.");
+	alert(team+ " has now " +totalPoints+ " on the league.");
 }else if (gameResult === "lost") {
 	var totalPoints = lost + parseInt("pointsBefore")
-	console.log(+team+ " has now " +totalPoints+ " on the league.");
-	alert(+team+ " has now " +totalPoints+ " on the league.");
+	console.log(team+ " has now " +totalPoints+ " on the league.");
+	alert(team+ " has now " +totalPoints+ " on the league.");
 };
 
 
