@@ -10,7 +10,7 @@ Conditionals Personal
 
 //Given
 var yearMonths = 12;
-
+var daysMonth = 30;
 
 
 var name = prompt("Please type in your name")
@@ -54,4 +54,28 @@ if (train === "") {
 	var trainBill = prompt("How much do you pay?")
 	console.log("You pay $" +trainBill+ " for your monthly metro card.")
 };
+
+var monthlyBill = (rentBill + cellphoneBill + cableBill + trainBill)*yearMonths
+console.log("You spend $" +monthlyBill+ " on your monthly bills every year.")
+
+//weekly
+
+var monthlyLaundry
+
+var laundry = prompt("How much do you pay for your laundry?")
+console.log(train)
+if (train === "") {
+	train = prompt("Please enter yes or no!");
+}else if (train === "yes") {
+	var trainBill = prompt("How much do you pay?")
+	console.log("You pay $" +trainBill+ " for your monthly metro card.")
+};
+
+
+
+
+
+
+
+
 
