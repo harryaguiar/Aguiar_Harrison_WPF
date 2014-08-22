@@ -27,7 +27,7 @@ if (team === "") {
 var gameResult = prompt("Did your team had a win, drawn or a lost on the last game?");
 	console.log(gameResult)
 
-if (gameResult === "") {
+if (gameResult === "" || "win" || "drawn" || "lost") {
 	gameResult = prompt("Please answer if your team had a win, drawn or a lost!");
 };
 
@@ -50,19 +50,15 @@ if (pointsBefore === "") {
 };
 
 if (gameResult === "win"){
-	var totalPoints = victory + Number("pointsBefore")
+	var totalPoints = parseInt(victory) + parseInt(pointsBefore)
 	console.log(team+ " has now " +totalPoints+ " on the league."); //"Your team " +team+ " won " +victory+ " points from the last game.
 	alert(team+ " has now " +totalPoints+ " on the league.");
 }else if (gameResult === "drawn") {
-	var totalPoints = drawn + Number("pointsBefore")
+	var totalPoints = parseInt(drawn) + parseInt(pointsBefore)
 	console.log(team+ " has now " +totalPoints+ " on the league.");
 	alert(team+ " has now " +totalPoints+ " on the league.");
 }else if (gameResult === "lost") {
-	var totalPoints = lost + parseInt("pointsBefore")
+	var totalPoints = parseInt(lost) + parseInt(pointsBefore)
 	console.log(team+ " has now " +totalPoints+ " on the league.");
 	alert(team+ " has now " +totalPoints+ " on the league.");
 };
-
-
-//result
-console.log(" ")
