@@ -7,16 +7,9 @@ Conditionals Industry
 
 //Quotation for a web design work
 
-//Given
-var = 
-var =
 
 
-//essential
-var = prompt("")
+var age = prompt("How old are you?");
 
-var = prompt("")
-
-
-//result
-console.log(" ")
+voteable = (age < 18) ? "Too young":"Old enough";
+console.log(voteable)

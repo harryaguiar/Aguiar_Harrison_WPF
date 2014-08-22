@@ -70,20 +70,8 @@ if (train === "") {
 };
 
 var monthlyBill = (Number(rentBill) + Number(cellphoneBill) + Number(cableBill) + Number(trainBill)) * yearMonths
-console.log("You spend $" +monthlyBill+ " on your monthly bills every year.")
+console.log("You spend $" +monthlyBill+ " on your monthly bills for the year.")
 
-//weekly
-
-var monthlyLaundry
-
-var laundry = prompt("How much do you pay for your laundry?")
-console.log(train)
-if (train === "") {
-	train = prompt("Please enter yes or no!");
-}else if (train === "yes") {
-	var trainBill = prompt("How much do you pay?")
-	console.log("You pay $" +trainBill+ " for your monthly metro card.")
-};
 
 
 
