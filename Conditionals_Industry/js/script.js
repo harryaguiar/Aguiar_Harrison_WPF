@@ -45,5 +45,7 @@ if (licenseProspect === "") {//validation
 var totalPrice = Number(classesNumber) + classCost
 console.log("The total for " +classesNumber+ " classes is $" +totalPrice)
 
+var totalWeeks = Number(classesNumber) / classWeek
+console.log("You will need " +totalWeeks+ " weeks to complete all " +classesNumber+ " classes.")
 
 
