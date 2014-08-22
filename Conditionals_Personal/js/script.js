@@ -70,6 +70,7 @@ if (train === "") {
 
 var monthlyBill = (Number(rentBill) + Number(cellphoneBill) + Number(cableBill) + Number(trainBill)) * yearMonths
 console.log("You spend $" +monthlyBill+ " on your monthly bills for the year.")
+alert("You spend $" +monthlyBill+ " on your monthly bills for the year.")// alert user the result
 
 
 
