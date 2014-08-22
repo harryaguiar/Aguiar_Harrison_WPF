@@ -9,7 +9,9 @@ Conditionals Personal
 
 
 //Given
-var = 
+
+
+var daysWeek = ["Monday", "Tuesday"] 
 var =
 
 
@@ -21,3 +23,43 @@ var = prompt("")
 
 //result
 console.log(" ")
+
+
+var name = prompt("Please type in your name")
+console.log(name)
+if (name === "") {
+	name = prompt("Please enter your name!");
+};
+
+var rent = prompt("Do you pay rent?")
+console.log(tv)
+if (rent === "") {
+	rent = prompt("Please enter yes or no!");
+}else if (rent == "yes") {
+	var rentBill = prompt("How much do you pay?")
+};
+
+/*
+var name = prompt("Please type in your name")
+console.log(name)
+if (name === "") {
+	name = prompt("Please enter your team name!");
+};
+
+var name = prompt("Please type in your name")
+console.log(name)
+if (name === "") {
+	name = prompt("Please enter your team name!");
+};
+
+var name = prompt("Please type in your name")
+console.log(name)
+if (name === "") {
+	name = prompt("Please enter your team name!");
+};
+
+var name = prompt("Please type in your name")
+console.log(name)
+if (name === "") {
+	name = prompt("Please enter your team name!");
+};
