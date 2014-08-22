@@ -7,19 +7,32 @@ Conditionals Wacky
 
 // Soccer table
 
-
+//Determine how many points will a soccer team have after a game result 
 
 
 
 //Given
-var = 
-var =
+var victory = 3; 
+var drawn = 1;
+var lost = 0;
 
 
 //essential
-var = prompt("")
+var team = prompt("What is your team?");
 
-var = prompt("")
+
+
+var gameResult = prompt("Did your team win, draw or lost the last game?");
+
+if (gameResult === "win"){
+	console.log("Your team " +team+ " won " +victory+ "points from the last game.");
+}else if (gameResult === "draw") {
+	console.log("Your team " +team+ " won " +drawn+ "points from the last game.");
+}else if (gameResult === "lost") {
+	console.log("Your team " +team+ " won " +lost+ "points from the last game.");
+}else{
+
+}
 
 
 //result
