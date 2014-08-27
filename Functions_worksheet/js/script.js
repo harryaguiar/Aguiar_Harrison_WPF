@@ -39,11 +39,9 @@ function calculateCircumference(r){//defining
 
 //Stung!
 
-/*
-It takes 8.666666667 bee stings per pound to kill an animal. 
+
 //Calculate how many bee stings are needed to kill an animal in a function
 
-*/
 
 
 var victimWeight = 153; //Victim’s weight in pounds
