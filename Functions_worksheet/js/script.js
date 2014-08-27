@@ -6,7 +6,6 @@ Function Workshhet
 */
 
 //Problem: Calculate the area of a rectangle given the width and height of the rectangle.
-
 //Calculate the Area of a Rectangle
 var width = 5;
 var height = 6;
