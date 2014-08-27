@@ -38,8 +38,6 @@ function calculateCircumference(r){//defining
 /*-------------------------------------------------------*/
 
 //Stung!
-
-
 //Calculate how many bee stings are needed to kill an animal in a function
 
 
