@@ -41,7 +41,6 @@ function calculateCircumference(r){//defining
 }
 
 
-
 /*-------------------------------------------------------*/
 
 //Stung!
