@@ -32,12 +32,12 @@ Return:
 Result to print to the console:
 	“The circumference of the circle is X”;*/
 
-var radius = 5;
-var cicleCircumference = calculateCircumference(radius);
-console.log("The circumference of the circle is " +cicleCircumference);
+var radius = 5;//Radius of the circle
+var cicleCircumference = calculateCircumference(radius);//invoking
+console.log("The circumference of the circle is " +cicleCircumference);//print out result to the console
 
-function calculateCircumference(r){
-	return 2 * Math.PI * r;
+function calculateCircumference(r){//defining
+	return 2 * Math.PI * r;//return
 }
 
 
@@ -64,7 +64,7 @@ Result to print to the console:
 var victimWeight = 153; //Victim’s weight in pounds
 var beeStings = 8.666666667; //bee stings per pound to kill an animal
 var totalBeeStings = calculateBeeStings(victimWeight, beeStings)//invoking
-console.log("It takes " +totalBeeStings+ " bee stings to kill this animal.")//print out result
+console.log("It takes " +totalBeeStings+ " bee stings to kill this animal.")//print out result to the console
 
 function calculateBeeStings(v, b){//defining
 	return v * b;//return
