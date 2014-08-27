@@ -59,3 +59,15 @@ Return:
 	Number of Bee stings
 Result to print to the console:
 	“It takes X bee stings to kill this animal.*/
+
+
+var victimWeight = 153; //in pounds
+var beeStings = 8.666666667; //per pound to kill an animal
+var totalBeeStings = calculateBeeStings(victimWeight, beeStings)
+console.log("It takes " +totalBeeStings+ " bee stings to kill this animal.")
+
+function calculateBeeStings(v, b){
+	return v * b;
+}
+
+
