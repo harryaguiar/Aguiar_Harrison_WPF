@@ -20,9 +20,7 @@ function calculateArea(w, h )
 /*-------------------------------------------------------*/
 
 //Circumference
-
 //Calculate the circumference of a circle.
-
 
 
 var radius = 5;//Radius of the circle
@@ -38,7 +36,6 @@ function calculateCircumference(r){//defining
 
 //Stung!
 //Calculate how many bee stings are needed to kill an animal in a function
-
 
 
 var victimWeight = 153; //Victim’s weight in pounds
