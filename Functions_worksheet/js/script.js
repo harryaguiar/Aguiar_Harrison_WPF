@@ -24,13 +24,7 @@ function calculateArea(w, h )
 
 //Calculate the circumference of a circle.
 
-/*
-Parameter(s) for function:
-	Radius of the circle
-Return:
-	Circumference of the circle
-Result to print to the console:
-	“The circumference of the circle is X”;*/
+
 
 var radius = 5;//Radius of the circle
 var cicleCircumference = calculateCircumference(radius);//invoking
