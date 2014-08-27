@@ -32,6 +32,16 @@ Return:
 Result to print to the console:
 	“The circumference of the circle is X”;*/
 
+var radius = 5;
+var cicleCircumference = calculateCircumference(radius);
+console.log("The circumference of the circle is " +cicleCircumference);
+
+function calculateCircumference(r){
+	return 2 * Math.PI * r;
+}
+
+
+
 
 /*-------------------------------------------------------*/
 
