@@ -1,7 +1,7 @@
 /*
 Harrison Aguiar
 WPF 1408 Section 01
-Conditionals Wacky
+Functions Wacky
 8-21-14
 */
 
