@@ -2,7 +2,7 @@
 Harrison Aguiar
 WPF 1408 Section 01
 Functions Personal
-8-21-14
+8-27-14
 */
 
 //Annual spending
