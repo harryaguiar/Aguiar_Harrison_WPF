@@ -5,6 +5,11 @@ Functions Wacky
 8-27-14
 */
 
+//Find out area of a triangle added to area of a trapezoid
+
+(function() {//function to welcome user
+    alert("Welcome to What's Up Studio");
+}());
 
 var name = prompt("Please type in your name.")//ask user name
 

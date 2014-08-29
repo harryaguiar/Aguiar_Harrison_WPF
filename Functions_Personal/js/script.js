@@ -8,6 +8,10 @@ Functions Personal
 
 //Find out how much user will pay for a speeding ticket
 
+(function() {//function to welcome user
+    alert("Welcome to What's Up Studio");
+}());
+
 
 var name = prompt("Please type in your name.")//ask user name
 
