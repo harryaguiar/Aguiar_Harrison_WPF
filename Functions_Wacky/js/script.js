@@ -73,6 +73,3 @@ function calcTotalArea(t, tt){//defining
 }
 console.log("The total area for both pictures added together are equal to " +twoTotal+ " square inches.");//print out result
 
-
-
-
