@@ -6,7 +6,7 @@ Functions Personal
 */
 
 
-//Voting poll
+//Find out how much user will pay for a speeding ticket
 
 
 var name = prompt("Please type in your name.")
@@ -23,7 +23,7 @@ var speedingTicket = prompt("Did you get a speeding ticket?")
 
 if (speedingTicket === "") {//validation
 	speedingTicket = prompt("Please enter yes or no!");
-}else if (speedingTicket === "yes") {//if user is interested on taking
+}else if (speedingTicket === "yes" || speedingTicket === "Yes") {//if user is interested on taking
 	speedLimit = prompt("What was the speed limit posted?"); //if so, ask user how many classes he would take
 }else{
 	wrongPlace = alert("Thank you for your visit! We are here to help people who have got a speeding ticket!")
