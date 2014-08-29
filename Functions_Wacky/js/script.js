@@ -5,7 +5,7 @@ Functions Wacky
 8-27-14
 */
 
-// Soccer table
+//Votation Poll
 
 //Determine how many points will a soccer team have after a game result 
 
