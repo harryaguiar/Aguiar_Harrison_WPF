@@ -15,7 +15,7 @@ while(name===""){
 	name=prompt("Don't leave this blank, it's required!\nPlease type in your name!")
 }
 
-console.log(name);
+console.log(name);//print out result
 
 /*-------------------------------------------------------*/
 
@@ -30,7 +30,7 @@ if (speedingTicket === "") {//validation
 }
 
 
-console.log(speedLimit);
+console.log(speedLimit);//print out result
 
 
 /*-------------------------------------------------------*/
@@ -43,7 +43,7 @@ while(speedDriven===""){
 }
 
 
-console.log(speedDriven);
+console.log(speedDriven);//print out result
 
 /*-------------------------------------------------------*/
 
@@ -52,7 +52,7 @@ while(mileageCost===""){
 	mileageCost = prompt("Please type in how fast you were driving!")
 }
 
-console.log(mileageCost);
+console.log(mileageCost);//print out result
 /*-------------------------------------------------------*/
 
 var ticketPrice = calcTicket(speedLimit, speedDriven, mileageCost);
@@ -61,6 +61,6 @@ function calcTicket(L, D, C){
 	var ticket = (D - L) * C;
 	return ticket; //function spitting the info out
 }
-console.log(ticketPrice);
+console.log(ticketPrice);//print out result
 
 
