@@ -15,7 +15,7 @@ while(name===""){
 	name=prompt("Don't leave this blank, it's required!\nPlease type in your name!")
 }
 
-console.log(name);
+console.log(name);//print out result
 
 /*-------------------------------------------------------*/
 
@@ -26,7 +26,7 @@ while(question1 != "" && question1 != "no" && question1 != "No" && question1 != 
 	question1=prompt("Don't leave this blank, it's required!\nPlease type in your Yes or No!")
 }
 
-console.log(question1);
+console.log(question1);//print out result
 
 
 /*-------------------------------------------------------*/
@@ -36,19 +36,19 @@ if (question1 === "no" || question1 === "No") {
 }else if (question1 === "yes" || question1 === "Yes") {
 	var question3 = prompt("Is updating your site an option?")
 };
-console.log(question3)
+console.log(question3)//print out result
 
 if (question2 === "yes" || question1 === "Yes") {
 	var question4 = prompt("How many pages are looking to have in your site?")
 };
 
-console.log(question4)
+console.log(question4+ " pages.")//print out result
 
 if (question3 === "yes" || question1 === "Yes") {
 	var question5 = prompt("How many pages are looking to update in your site?")
 };
 
-console.log(question5)
+console.log(question5+ " pages.")//print out result
 
 /*-------------------------------------------------------*/
 var planChosen = prompt("We offer Gold plan, Silver plan and Bronze plan.\nGold = $150.00\nSilver = $100.00\nBronze = $75.00\nHow much are you willing to pay? ")
@@ -65,6 +65,6 @@ function calcCost(p, a){
 	var cost = Number(p) + Number(a);
 	return cost;
 }
-console.log("You will pay only $" +totalPay+ " for your website")
+console.log("You will pay only $" +totalPay+ " for your website")//print out result
 
 
