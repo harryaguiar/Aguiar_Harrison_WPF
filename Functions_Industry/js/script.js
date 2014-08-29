@@ -72,3 +72,5 @@ function calcCost(p, a){//defining
 console.log("You will pay only $" +totalPay+ " for your website")//print out result
 
 
+
+
