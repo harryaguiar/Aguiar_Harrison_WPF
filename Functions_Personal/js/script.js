@@ -68,3 +68,4 @@ function calcTicket(L, D, C){//defining
 console.log("You will pay $" +ticketPrice+ " for this ticket!");//print out result
 
 
+
