@@ -61,7 +61,7 @@ if (appBuild === "yes" || appBuild === "Yes") {
 
 var totalPay = calcCost(planChosen, appCost)
 
-function calcCost(p, a){
+function calcCost(p, a){//defining
 	var cost = Number(p) + Number(a);
 	return cost;
 }

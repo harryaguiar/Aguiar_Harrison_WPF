@@ -9,9 +9,9 @@ Functions Personal
 //Find out how much user will pay for a speeding ticket
 
 
-var name = prompt("Please type in your name.")
+var name = prompt("Please type in your name.")//ask user name
 
-while(name===""){
+while(name===""){//validation
 	name=prompt("Don't leave this blank, it's required!\nPlease type in your name!")
 }
 
@@ -19,14 +19,14 @@ console.log(name);//print out result
 
 /*-------------------------------------------------------*/
 
-var speedingTicket = prompt("Did you get a speeding ticket?")
+var speedingTicket = prompt("Did you get a speeding ticket?")//ask user if he got a speeding ticket
 
 if (speedingTicket === "") {//validation
 	speedingTicket = prompt("Please enter yes or no!");
-}else if (speedingTicket === "yes" || speedingTicket === "Yes") {//if user is interested on taking
-	speedLimit = prompt("What was the speed limit posted?"); //if so, ask user how many classes he would take
+}else if (speedingTicket === "yes" || speedingTicket === "Yes") {//if user got a ticket
+	speedLimit = prompt("What was the speed limit posted?"); //if so, ask user what was the speed limit allowed
 }else{
-	wrongPlace = alert("Thank you for your visit! We are here to help people who have got a speeding ticket!")
+	wrongPlace = alert("Thank you for your visit! We are here to help people who have got a speeding ticket!")// else, user does not go ahead to the other questions 
 }
 
 
@@ -35,10 +35,10 @@ console.log("The speed limit posted is " +speedLimit+ " miles per hour");//print
 
 /*-------------------------------------------------------*/
 
-var speedDriven = prompt("How fast where you going?")
-console.log(speedDriven);
+var speedDriven = prompt("How fast where you going?")//ask user how fast he was going to receive a ticket
+console.log(speedDriven);//print out result
 
-while(speedDriven===""){
+while(speedDriven===""){//validation
 	speedDriven = prompt("Please type in how fast you were driving!")
 }
 
@@ -47,17 +47,17 @@ console.log("You were driven at " +speedDriven+ " miles per hour");//print out r
 
 /*-------------------------------------------------------*/
 
-var mileageCost = prompt("What is the cost for every mile you go over the limit in your county?")
-while(mileageCost===""){
+var mileageCost = prompt("What is the cost for every mile you go over the limit in your county?")//ask user how much is every mile he goes over the limit
+while(mileageCost===""){//validation
 	mileageCost = prompt("Please type in the cost of every mile you go over the limit!")
 }
 
 console.log("For every mile over the speed limit, you will be charged $" +mileageCost);//print out result
 /*-------------------------------------------------------*/
 
-var ticketPrice = calcTicket(speedLimit, speedDriven, mileageCost);
+var ticketPrice = calcTicket(speedLimit, speedDriven, mileageCost);//variable to calculate the ticket price
 
-function calcTicket(L, D, C){
+function calcTicket(L, D, C){//defining
 	var ticket = (D - L) * C;
 	return ticket; //function spitting the info out
 }

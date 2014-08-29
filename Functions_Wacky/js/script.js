@@ -28,7 +28,7 @@ console.log(height+ " inches")//print out result
 
 var total = calcArea(base, height);
 
-function calcArea(b, h){
+function calcArea(b, h){//defining
 	var area = (b * h)/2;
 	return area; //function spitting the info out
 }
@@ -52,7 +52,7 @@ console.log(heightSide+ " inches")//print out result
 
 var trapezoidTotal = calcArea(smallSide, biggerSide, heightSide);
 
-function calcTArea(s, b, hs){
+function calcTArea(s, b, hs){//defining
 	var tArea = ((s + b)/2) * hs;
 	return tArea; //function spitting the info out
 }
@@ -62,7 +62,7 @@ console.log("The total area for the trapezoid is " +trapezoidTotal+ "square inch
 
 var twoTotal = calcTotalArea(total, trapezoidTotal);
 
-function calcTotalArea(t, tt){
+function calcTotalArea(t, tt){//defining
 	var totalArea = t + tt;
 	return totalArea; //function spitting the info out
 }
