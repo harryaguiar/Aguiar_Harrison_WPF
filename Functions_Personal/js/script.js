@@ -58,7 +58,7 @@ console.log("For every mile over the speed limit, you will be charged $" +mileag
 var ticketPrice = calcTicket(speedLimit, speedDriven, mileageCost);//variable to calculate the ticket price
 
 function calcTicket(L, D, C){//defining
-	var ticket = (D - L) * C;
+	var ticket = (D - L) * C;//function calculation
 	return ticket; //function spitting the info out
 }
 console.log("You will pay $" +ticketPrice+ " for this ticket!");//print out result

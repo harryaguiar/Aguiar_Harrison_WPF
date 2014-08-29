@@ -62,7 +62,7 @@ if (appBuild === "yes" || appBuild === "Yes") {
 var totalPay = calcCost(planChosen, appCost)
 
 function calcCost(p, a){//defining
-	var cost = Number(p) + Number(a);
+	var cost = Number(p) + Number(a);//function calculation
 	return cost;
 }
 console.log("You will pay only $" +totalPay+ " for your website")//print out result
