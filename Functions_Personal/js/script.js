@@ -69,4 +69,3 @@ console.log("You will pay $" +ticketPrice+ " for this ticket!");//print out resu
 
 
 
-

@@ -73,4 +73,3 @@ console.log("You will pay only $" +totalPay+ " for your website")//print out res
 
 
 
-
