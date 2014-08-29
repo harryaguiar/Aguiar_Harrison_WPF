@@ -30,7 +30,7 @@ if (speedingTicket === "") {//validation
 }
 
 
-console.log(speedLimit);//print out result
+console.log("The speed limit posted is " +speedLimit+ " miles per hour");//print out result
 
 
 /*-------------------------------------------------------*/
@@ -43,16 +43,16 @@ while(speedDriven===""){
 }
 
 
-console.log(speedDriven);//print out result
+console.log("You were driven at " +speedDriven+ " miles per hour");//print out result
 
 /*-------------------------------------------------------*/
 
 var mileageCost = prompt("What is the cost for every mile you go over the limit in your county?")
 while(mileageCost===""){
-	mileageCost = prompt("Please type in how fast you were driving!")
+	mileageCost = prompt("Please type in the cost of every mile you go over the limit!")
 }
 
-console.log(mileageCost);//print out result
+console.log("For every mile over the speed limit, you will be charged $" +mileageCost);//print out result
 /*-------------------------------------------------------*/
 
 var ticketPrice = calcTicket(speedLimit, speedDriven, mileageCost);
@@ -61,6 +61,6 @@ function calcTicket(L, D, C){
 	var ticket = (D - L) * C;
 	return ticket; //function spitting the info out
 }
-console.log(ticketPrice);//print out result
+console.log("You will pay $" +ticketPrice+ " for this ticket!");//print out result
 
 
